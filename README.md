@@ -155,27 +155,39 @@ each against its pin, so the reproducibility is verified rather than asserted.
   `<instance>.bks.MonoCost.json` and are replaced only by a strictly better
   validated solution.
 - **BKS coverage is complete**: all 330 instances carry a validated `MonoCost`
-  solution from a first-pass campaign (PyVRP/HGS, 120 s per instance, seed 42).
-  Every one is feasible and visits every customer exactly once. These are
-  reference solutions, not optimality certificates, and the first pass was
-  deliberately short — `save_bks_if_improved` re-validates the stored solution
-  and only ever replaces it with a strictly better one, so longer runs can only
-  improve them.
+  solution. The current values come from a **second campaign** (September 2026,
+  PyVRP 0.13.4 iterated local search): per instance, 10 seeds at a budget of
+  `clamp(2.4 n, 300 s, 7200 s)` seconds — doubled above n = 1000 — followed by
+  one warm-started run at twice that budget from the best solution found, 3 687
+  validated runs and 2 062 core-hours in all. It replaced 316 of the 330
+  first-pass solutions (PyVRP, 120 s, seed 42) by a median 0.19 % and up to
+  4.06 %; the 14 others were tied. Every run is listed in
+  `campaigns/2026-09-bks-campaign-2/ledger.csv` with its seed, budget, cost and
+  route count, and the first-pass costs are in `baseline.csv` beside it.
+  These are reference solutions, not optimality certificates:
+  `save_bks_if_improved` re-validates the stored solution and only ever replaces
+  it with a strictly better one, so longer runs can only improve them.
+
+  The ledger also gives the family its first measure of solver noise: across
+  10 seeds at the same budget, the best-to-worst cost spread has a median of
+  0.33 % (`euclidean`), 0.29 % (`shortest`) and 0.38 % (`fastest`), with a 90th
+  percentile under 1 % on all three — a metric effect smaller than that is not
+  distinguishable from seed luck at this budget.
 
   A first result from the experiment the family exists for: **solving on true
   road distances costs 36 % more than solving the same customers under the
   Euclidean metric** (median cost ratio `shortest`/`euclidean` = 1.358 over the
-  110 bases, range 1.094–2.072), while the fleet does not move at all — median
+  110 bases, range 1.094–2.071), while the fleet does not move at all — median
   35 routes under all three metrics. The penalty is in distance, not vehicles.
 
   Every solution uses at least as many routes as its name's `k`, which is what
   that number claims. Route counts run 7 to 510, and **no solution concentrates
-  more than 24 % of its customers in a single route** — the measure that
+  more than 28 % of its customers in a single route** — the measure that
   separates a fleet problem from a disguised TSP.
 - **Every solution is drawn on real streets.** Each BKS under `shortest` and
   `fastest` carries a route geometry built from the `n + K` arcs it actually
-  traverses — 220 geometries, 139 474 arcs, a median of 387 arcs and 602 KB per
-  solution. 0.294 % of arcs fall back to a straight line where the trimmed road
+  traverses — 220 geometries, 139 439 arcs, a median of 387 arcs and 602 KB per
+  solution. 0.369 % of arcs fall back to a straight line where the trimmed road
   sidecar cannot reconstruct the polyline; those are recorded explicitly in the
   payload as `straight_fallback_paths`, so the fallback is countable rather than
   invisible.

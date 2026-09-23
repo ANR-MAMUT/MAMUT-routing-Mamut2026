@@ -9,6 +9,23 @@ validated solution.
 
 ### Changed
 
+- **BKS campaign 2** (2026-09-21 → 23, on a 100-core lab VM): every instance was
+  solved with PyVRP 0.13.4 ILS for 10 seeds at `clamp(2.4 n, 300 s, 7200 s)`
+  seconds (doubled above n = 1000, after a 30-instance calibration pilot showed
+  that tier alone still gaining > 0.1 % beyond the budget), then polished by one
+  warm-started run at twice that budget. 316 of the 330 first-pass BKS (120 s,
+  seed 42) were replaced, by a median 0.19 % and at most 4.06 %; 14 were tied,
+  none lost. Every BKS was re-validated by an independent plain-Python cost
+  recomputation from the raw matrices, checked against its name's `k` lower
+  bound, and compared to the first-pass cost. The full run ledger (3 687 runs)
+  and the first-pass costs live under `campaigns/2026-09-bks-campaign-2/`. New
+  BKS metadata records `pyvrp_version`, `campaign`, `phase`, `host` and, for
+  polished solutions, the sha256 of the warm-start routes. Regenerated README
+  figures: `shortest`/`euclidean` range is 1.094–2.071 (median unchanged at
+  1.358), the largest single-route share is now 28 % (was 24 %); route
+  geometries rebuilt for the 220 changed-or-kept `shortest`/`fastest` BKS:
+  139 439 arcs, 0.369 % straight-line fallbacks (was 0.294 %).
+
 - The collection moved out of the MAMUT-routing tree into this satellite
   repository, `MAMUT-routing-Mamut2026`, mounted back at `benchmarks/Mamut2026/`
   as a git submodule, the layout Poryos2026 already uses. Every instance,
