@@ -155,13 +155,15 @@ each against its pin, so the reproducibility is verified rather than asserted.
   `<instance>.bks.MonoCost.json` and are replaced only by a strictly better
   validated solution.
 - **BKS coverage is complete**: all 330 instances carry a validated `MonoCost`
-  solution. The current values come from a **second campaign** (September 2026,
-  PyVRP 0.13.4 iterated local search): per instance, 10 seeds at a budget of
-  `clamp(2.4 n, 300 s, 7200 s)` seconds — doubled above n = 1000 — followed by
-  one warm-started run at twice that budget from the best solution found, 3 687
-  validated runs and 2 062 core-hours in all. It replaced 316 of the 330
-  first-pass solutions (PyVRP, 120 s, seed 42) by a median 0.19 % and up to
-  4.06 %; the 14 others were tied. Every run is listed in
+  solution. 285 of the current values come from a **second campaign**
+  (September 2026, PyVRP 0.13.4 iterated local search): per instance, 10 seeds
+  at a budget of `clamp(2.4 n, 300 s, 7200 s)` seconds — doubled above
+  n = 1000 — followed by one warm-started run at twice that budget from the best
+  solution found, 3 687 validated runs and 2 062 core-hours in all. It strictly
+  improved 285 of the 330 first-pass solutions (PyVRP, 120 s, seed 42), by a
+  median 0.24 % and up to 4.06 %; on the other 45 it tied the first pass at the
+  exact decimal cost, and the first-pass solution stands (31 of these ties are
+  listed in `restored-ties.csv`). Every run is listed in
   `campaigns/2026-09-bks-campaign-2/ledger.csv` with its seed, budget, cost and
   route count, and the first-pass costs are in `baseline.csv` beside it.
   These are reference solutions, not optimality certificates:
