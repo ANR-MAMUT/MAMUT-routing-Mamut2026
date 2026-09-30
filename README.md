@@ -155,30 +155,48 @@ each against its pin, so the reproducibility is verified rather than asserted.
   `<instance>.bks.MonoCost.json` and are replaced only by a strictly better
   validated solution.
 - **BKS coverage is complete**: all 330 instances carry a validated `MonoCost`
-  solution. 285 of the current values come from a **second campaign**
-  (September 2026, PyVRP 0.13.4 iterated local search): per instance, 10 seeds
-  at a budget of `clamp(2.4 n, 300 s, 7200 s)` seconds — doubled above
-  n = 1000 — followed by one warm-started run at twice that budget from the best
-  solution found, 3 687 validated runs and 2 062 core-hours in all. It strictly
-  improved 285 of the 330 first-pass solutions (PyVRP, 120 s, seed 42), by a
-  median 0.24 % and up to 4.06 %; on the other 45 it tied the first pass at the
-  exact decimal cost, and the first-pass solution stands (31 of these ties are
-  listed in `restored-ties.csv`). Every run is listed in
-  `campaigns/2026-09-bks-campaign-2/ledger.csv` with its seed, budget, cost and
-  route count, and the first-pass costs are in `baseline.csv` beside it.
-  These are reference solutions, not optimality certificates:
-  `save_bks_if_improved` re-validates the stored solution and only ever replaces
-  it with a strictly better one, so longer runs can only improve them.
+  solution, from three successive campaigns that only ever replaced a solution
+  with a strictly better validated one (`save_bks_if_improved` re-validates the
+  stored solution on every write). These are reference solutions, not
+  optimality certificates.
 
-  The ledger also gives the family its first measure of solver noise: across
-  10 seeds at the same budget, the best-to-worst cost spread has a median of
-  0.33 % (`euclidean`), 0.29 % (`shortest`) and 0.38 % (`fastest`), with a 90th
-  percentile under 1 % on all three — a metric effect smaller than that is not
-  distinguishable from seed luck at this budget.
+  **Campaign 2** (September 2026, PyVRP 0.13.4 iterated local search, every
+  instance): 10 seeds at `clamp(2.4 n, 300 s, 7200 s)` seconds — doubled above
+  n = 1000 — then one warm-started run at twice that budget; 3 687 validated
+  runs, 2 062 core-hours. It strictly improved 285 of the 330 first-pass
+  solutions (PyVRP, 120 s, seed 42), by a median 0.24 % and up to 4.06 %, and
+  tied the other 45 at the exact decimal cost (the first-pass solution stands;
+  31 of these ties are listed in `restored-ties.csv`). Its ledger gave the
+  family its first measure of solver noise: across 10 seeds at the same budget,
+  the best-to-worst cost spread has a median of 0.33 % (`euclidean`), 0.29 %
+  (`shortest`) and 0.38 % (`fastest`), with a 90th percentile under 1 % — a
+  metric effect smaller than that is not distinguishable from seed luck at that
+  budget.
+
+  **Campaign 3** (September 2026, the 26 bases with n ≥ 700, i.e. 78
+  instances): very long runs — `clamp(21.6 n, 2 h, 24 h)` seconds per run —
+  with three independent state-of-the-art CVRP solvers on the `euclidean`
+  slice, **AILS-II** (Máximo, Cordeau & Nascimento), **FILO2** (Accorsi & Vigo)
+  and **HGS-CVRP** (Vidal), 5 seeds each, plus PyVRP at 4 seeds on all three
+  metrics, then one PyVRP run per instance at 1.5× that budget warm-started
+  from the best solution any solver had found; 780 validated runs, 7 034
+  core-hours. It improved **all 78** solutions: median −0.34 % on `euclidean`
+  (up to −1.47 %, `prague-n2000`), −0.07 % on `shortest` and −0.08 % on
+  `fastest` (up to −0.59 %). On the euclidean slice AILS-II was the best
+  external solver on 24 of 26 instances (median gap to the final best 0.001 %),
+  FILO2 sat a median 0.14 % behind and HGS-CVRP 0.20 % (up to 3.9 % on the
+  long-route `prague-n2000`, k = 13); PyVRP's cold runs trailed by a median
+  0.13 %. The external solvers are symmetric and coordinate-based, so they
+  could not be run on the asymmetric road metrics; those 52 solutions come from
+  PyVRP alone. Every run, its solver, seed, budget, cost and route count is in
+  `campaigns/2026-09-bks-campaign-3/ledger.csv`, the per-solver comparison in
+  `cross-solver.csv`, and the exact solver builds (git commits, jar and patch
+  digests) in `solver-versions.json`; AILS-II was patched only to accept a
+  seed and to write its routes (`ails2.patch`).
 
   A first result from the experiment the family exists for: **solving on true
   road distances costs 36 % more than solving the same customers under the
-  Euclidean metric** (median cost ratio `shortest`/`euclidean` = 1.358 over the
+  Euclidean metric** (median cost ratio `shortest`/`euclidean` = 1.360 over the
   110 bases, range 1.094–2.071), while the fleet does not move at all — median
   35 routes under all three metrics. The penalty is in distance, not vehicles.
 
@@ -188,8 +206,8 @@ each against its pin, so the reproducibility is verified rather than asserted.
   separates a fleet problem from a disguised TSP.
 - **Every solution is drawn on real streets.** Each BKS under `shortest` and
   `fastest` carries a route geometry built from the `n + K` arcs it actually
-  traverses — 220 geometries, 139 439 arcs, a median of 387 arcs and 602 KB per
-  solution. 0.369 % of arcs fall back to a straight line where the trimmed road
+  traverses — 220 geometries  139 434 arcs  a median of 387 arcs and 602 KB per
+  solution. 0.363 % of arcs fall back to a straight line where the trimmed road
   sidecar cannot reconstruct the polyline; those are recorded explicitly in the
   payload as `straight_fallback_paths`, so the fallback is countable rather than
   invisible.

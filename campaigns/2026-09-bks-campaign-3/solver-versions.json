@@ -1,0 +1,4 @@
+{"filo2": {"git": "43653e26e58ac774c485542a5a6329ed15a9c9f3", "build": "cmake Release -DENABLE_TIMELIMIT=ON, -O3 -march=native -flto=auto, g++ 14.2.0, kvm64"},
+ "hgs": {"git": "1a927955cd2861a29d978f0d359d6e647db9319c", "build": "cmake Release, g++ 14.2.0"},
+ "ails2": {"upstream_git": "e631331c76f001e652af9895e27f0fd8da8698c0", "jar_sha256": "7781dc90cff36aa470c69b19ab57efa39a5201370cf9ef3473ed478884af9c4f", "patch_sha256": "34b155e2efc58aade793c48de46a3fd7f763bbb2f884f043d476ad8106075031", "patch": "seeded SharedRandom, -seed, -out (writes best solution)", "jdk": "temurin 21.0.12.1+1"},
+ "pyvrp": "0.13.4", "lib": "0.11.0", "built": "2026-09-23T16:40:41+02:00", "host": "turing-3"}
