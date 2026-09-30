@@ -206,7 +206,7 @@ each against its pin, so the reproducibility is verified rather than asserted.
   separates a fleet problem from a disguised TSP.
 - **Every solution is drawn on real streets.** Each BKS under `shortest` and
   `fastest` carries a route geometry built from the `n + K` arcs it actually
-  traverses — 220 geometries  139 434 arcs  a median of 387 arcs and 602 KB per
+  traverses — 220 geometries, 139 434 arcs, a median of 387 arcs and 602 KB per
   solution. 0.363 % of arcs fall back to a straight line where the trimmed road
   sidecar cannot reconstruct the polyline; those are recorded explicitly in the
   payload as `straight_fallback_paths`, so the fallback is countable rather than
