@@ -9,6 +9,21 @@ validated solution.
 
 ### Changed
 
+- **External BKS contribution** (pull request #2 by Touko Ursin, merged
+  2026-10-19): three `MonoCost` BKS replaced by strictly better validated
+  solutions. `mamut-luxembourg-n206-k65-poi`, by exact-route SCIP incumbent
+  polishing: `fastest` 99 796.098 → 99 731.528 s (−0.065 %) and `shortest`
+  2 235 320.058 → 2 232 750.057 m (−0.115 %), both 66 → 65 routes, the base's
+  `k`. `mamut-casablanca-n572-k191-poi`, by capacity-three route pricing and a
+  restricted SCIP primal search: `euclidean` 8 766 914.212 → 8 766 877.059 m
+  (−0.0004 %, 191 routes). Validated with mamut-routing-lib 0.12.0
+  (`check_solution`, exact decimal costs, `save_bks_if_improved`); the other
+  327 BKS are untouched. Regenerated README figures: 139 432 route-geometry
+  arcs (was 139 434), straight-line fallbacks unchanged at 0.363 %;
+  `shortest`/`euclidean` ratios and route medians unchanged. Also corrected the
+  route-count range to 7–509, stale since campaign 3 (`bogota-n4000`, 510 → 509
+  routes).
+
 - **BKS campaign 3** (2026-09-23 → 30, on the same 100-core lab VM): the 26 bases
   with n ≥ 700 (78 instances) were solved with very long budgets,
   `clamp(21.6 n, 2 h, 24 h)` seconds per run, by three independent

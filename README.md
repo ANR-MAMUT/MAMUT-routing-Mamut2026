@@ -155,10 +155,10 @@ each against its pin, so the reproducibility is verified rather than asserted.
   `<instance>.bks.MonoCost.json` and are replaced only by a strictly better
   validated solution.
 - **BKS coverage is complete**: all 330 instances carry a validated `MonoCost`
-  solution, from three successive campaigns that only ever replaced a solution
-  with a strictly better validated one (`save_bks_if_improved` re-validates the
-  stored solution on every write). These are reference solutions, not
-  optimality certificates.
+  solution, from three successive campaigns and one external contribution that
+  only ever replaced a solution with a strictly better validated one
+  (`save_bks_if_improved` re-validates the stored solution on every write).
+  These are reference solutions, not optimality certificates.
 
   **Campaign 2** (September 2026, PyVRP 0.13.4 iterated local search, every
   instance): 10 seeds at `clamp(2.4 n, 300 s, 7200 s)` seconds — doubled above
@@ -194,6 +194,15 @@ each against its pin, so the reproducibility is verified rather than asserted.
   digests) in `solver-versions.json`; AILS-II was patched only to accept a
   seed and to write its routes (`ails2.patch`).
 
+  **External contribution** (October 2026, Touko Ursin, pull request #2): three
+  solutions improved by SCIP-based search — exact-route incumbent polishing on
+  `luxembourg-n206`, which lowers `fastest` by 64.570 s (−0.065 %) and
+  `shortest` by 2 570.001 m (−0.115 %), both from 66 routes down to the
+  base's k = 65; and capacity-three route pricing followed by a restricted
+  primal search on `casablanca-n572`, which lowers `euclidean` by 37.153 m
+  (−0.0004 %, 191 routes). These are feasible-solution improvements, not
+  optimality claims; each BKS records its method and author in its metadata.
+
   A first result from the experiment the family exists for: **solving on true
   road distances costs 36 % more than solving the same customers under the
   Euclidean metric** (median cost ratio `shortest`/`euclidean` = 1.360 over the
@@ -201,12 +210,12 @@ each against its pin, so the reproducibility is verified rather than asserted.
   35 routes under all three metrics. The penalty is in distance, not vehicles.
 
   Every solution uses at least as many routes as its name's `k`, which is what
-  that number claims. Route counts run 7 to 510, and **no solution concentrates
+  that number claims. Route counts run 7 to 509, and **no solution concentrates
   more than 28 % of its customers in a single route** — the measure that
   separates a fleet problem from a disguised TSP.
 - **Every solution is drawn on real streets.** Each BKS under `shortest` and
   `fastest` carries a route geometry built from the `n + K` arcs it actually
-  traverses — 220 geometries, 139 434 arcs, a median of 387 arcs and 602 KB per
+  traverses — 220 geometries, 139 432 arcs, a median of 387 arcs and 602 KB per
   solution. 0.363 % of arcs fall back to a straight line where the trimmed road
   sidecar cannot reconstruct the polyline; those are recorded explicitly in the
   payload as `straight_fallback_paths`, so the fallback is countable rather than
