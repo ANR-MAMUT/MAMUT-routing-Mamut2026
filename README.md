@@ -436,3 +436,9 @@ OSM-derived artifacts are distributed under
 [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/), with attribution to
 OpenStreetMap and its contributors. See [LICENSE](LICENSE) and the MAMUT-routing
 [NOTICE](https://github.com/ANR-MAMUT/MAMUT-routing/blob/main/NOTICE).
+
+## Citation and benchmark authorship
+
+The authors, in citation order, are Adrien Pichon, Florian Rascoussier, Romain Billot, Lina Fahed, Alexandru-Liviu Olteanu, Marc Sevaux and Christine Solnon. The 2 lead authors are ordered alphabetically by surname, followed by the scientific supervisors in alphabetical order. Their ORCID identifiers are recorded in [CITATION.cff](CITATION.cff).
+
+The listed authors propose Mamut2026 and contribute the experimental design, instance-generation procedure and diversity-based selection of the published collection. These contributions include the city and size assignments, customer sourcing, demand and capacity design, selection across instance characteristics, and construction of 3 metric variants over each shared base. Cite this repository for that benchmark contribution, and Uchoa et al. (2017) for the adopted X-set vocabulary of demand distributions, route-size bands and depot/customer placements. Credit OpenStreetMap and its contributors for the underlying road networks and geographic features under the terms in [LICENSE](LICENSE). Individual solution-contributor credits are recorded with the solutions. Record the exact Git commit used in experiments.
