@@ -9,6 +9,24 @@ validated solution.
 
 ### Changed
 
+- **BKS campaign 3** (2026-09-23 → 30, on the same 100-core lab VM): the 26 bases
+  with n ≥ 700 (78 instances) were solved with very long budgets,
+  `clamp(21.6 n, 2 h, 24 h)` seconds per run, by three independent
+  state-of-the-art CVRP solvers on the `euclidean` slice — AILS-II, FILO2 and
+  HGS-CVRP, 5 seeds each, built from source on the VM — and by PyVRP 0.13.4 at
+  4 seeds on all three metrics, then polished by one PyVRP run per instance at
+  1.5× that budget warm-started from the best solution found by any solver;
+  780 validated runs, 7 034 core-hours. **All 78 BKS were replaced**: median
+  −0.34 % on `euclidean` (up to −1.47 %), −0.07 % on `shortest`, −0.08 % on
+  `fastest`. AILS-II was the strongest external solver (best on 24 of 26
+  euclidean instances, median gap 0.001 % to the final best); 8 of the 78 new
+  BKS are raw external-solver solutions the polish could not improve (6 AILS-II,
+  1 FILO2, 1 HGS-CVRP), the other 70 are polish runs. Every BKS was re-validated
+  by the independent plain-Python cost recomputation; the 252 out-of-scope
+  instances are untouched. Ledger, per-solver comparison and solver builds
+  under `campaigns/2026-09-bks-campaign-3/`. Regenerated README figure: the
+  `shortest`/`euclidean` median cost ratio is 1.360 (was 1.358).
+
 - **BKS campaign 2** (2026-09-21 → 23, on a 100-core lab VM): every instance was
   solved with PyVRP 0.13.4 ILS for 10 seeds at `clamp(2.4 n, 300 s, 7200 s)`
   seconds (doubled above n = 1000, after a 30-instance calibration pilot showed
