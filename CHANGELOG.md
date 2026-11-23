@@ -9,6 +9,35 @@ validated solution.
 
 ### Changed
 
+- **BKS contribution from the AIR-HGS study** (pull request #5, 2026-11-23):
+  169 `MonoCost` BKS replaced by strictly better validated solutions, 48
+  `euclidean`, 61 `shortest` and 60 `fastest`, on 70 bases from n = 138 to
+  n = 4000. They are by-products of a solver study, not of a BKS campaign.
+  AIR-HGS is a hybrid genetic search with asynchronous route decomposition.
+  167 solutions come from the first stage of its evaluation (2026-10-20 → 28,
+  on the same 100-core lab VM): the 80 bases with n ≥ 200, 3 seeds and
+  `2.4 n` seconds per run, with five solver configurations on `shortest` and
+  `fastest` and four on `euclidean`, 3 360 runs. The other 2 come from an
+  earlier study of `0.2 n`-second runs on a laptop. 145 of the new BKS were
+  found with the route decomposition on, 22 by the same code without it and
+  2 by PyVRP 0.14.1 ILS. Median change −0.12 % (−0.09 % `euclidean`, −0.14 %
+  `shortest`, −0.12 % `fastest`), largest −0.70 % (`mamut-budapest-n614-k22-hyb`,
+  `shortest`); 29 solutions use fewer routes and none uses more. They replace
+  137 campaign-2 solutions, 28 campaign-3 solutions (14 `shortest`, 13
+  `fastest`, 1 `euclidean`) and 4 first-pass solutions. On 29 further
+  instances the best run of the study ties the stored BKS at the exact decimal
+  cost, and the incumbent stays; the other 161 BKS are byte-identical. Stored
+  with mamut-routing-lib 0.12.0 (`check_solution`, exact decimal costs,
+  `save_bks_if_improved`) and re-validated by an independent plain-Python
+  recomputation from the raw matrices. The before/after table is
+  `campaigns/2026-11-air-hgs-study/improvements.csv`. README figures
+  recomputed and unchanged: `shortest`/`euclidean` median ratio 1.360 and
+  range 1.094–2.071, median 35 routes per metric, route counts 7–509, largest
+  single-route share 28 %. The route geometries of the 121 changed `shortest`
+  and `fastest` BKS are not rebuilt here: their arc count becomes 139 403
+  (was 139 432), and the README's geometry figures describe the previous
+  solutions until the next publication rebuilds them.
+
 - **External BKS contribution** (pull request #2 by Touko Ursin, merged
   2026-10-19): three `MonoCost` BKS replaced by strictly better validated
   solutions. `mamut-luxembourg-n206-k65-poi`, by exact-route SCIP incumbent

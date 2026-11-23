@@ -155,9 +155,10 @@ each against its pin, so the reproducibility is verified rather than asserted.
   `<instance>.bks.MonoCost.json` and are replaced only by a strictly better
   validated solution.
 - **BKS coverage is complete**: all 330 instances carry a validated `MonoCost`
-  solution, from three successive campaigns and one external contribution that
-  only ever replaced a solution with a strictly better validated one
-  (`save_bks_if_improved` re-validates the stored solution on every write).
+  solution, from three successive campaigns, one external contribution and the
+  runs of one solver study, each of which only ever replaced a solution with a
+  strictly better validated one (`save_bks_if_improved` re-validates the stored
+  solution on every write).
   These are reference solutions, not optimality certificates.
 
   **Campaign 2** (September 2026, PyVRP 0.13.4 iterated local search, every
@@ -202,6 +203,21 @@ each against its pin, so the reproducibility is verified rather than asserted.
   primal search on `casablanca-n572`, which lowers `euclidean` by 37.153 m
   (−0.0004 %, 191 routes). These are feasible-solution improvements, not
   optimality claims; each BKS records its method and author in its metadata.
+
+  **AIR-HGS study** (November 2026, pull request #5): 169 solutions improved
+  by the runs of a solver study rather than of a BKS campaign, 48 `euclidean`,
+  61 `shortest` and 60 `fastest`. AIR-HGS is a hybrid genetic search with
+  asynchronous route decomposition. Its evaluation solved the 80 bases with
+  n ≥ 200 for `2.4 n` seconds per run and 3 seeds, with five solver
+  configurations on the road metrics and four on `euclidean`, 3 360 runs; two
+  of the 169 come from earlier, shorter runs of the same study. 145 of the new
+  solutions were found with the route decomposition on, 22 by the same code
+  without it and 2 by PyVRP 0.14.1 ILS. The median change is
+  −0.12 % and the largest −0.70 % (`budapest-n614`, `shortest`). 28 of the
+  replaced solutions were campaign 3's, 27 of them on the asymmetric road
+  metrics, where campaign 3 had PyVRP alone. The before/after table is
+  `campaigns/2026-11-air-hgs-study/improvements.csv`, and each BKS records
+  the configuration, seed and time limit of its run.
 
   A first result from the experiment the family exists for: **solving on true
   road distances costs 36 % more than solving the same customers under the
