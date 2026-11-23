@@ -1,16 +1,16 @@
 {
     "instance_name": "mamut-barcelona-n107-k8-poi",
     "routes": [
-        [31, 44, 47, 57, 43, 32, 90, 14, 53, 78, 35, 59, 26, 40, 106],
-        [83, 73, 105, 1, 36, 84, 25, 20, 82, 12, 2, 10, 104, 86, 6],
-        [61, 18, 96, 87, 92, 34, 100, 89, 74, 81, 65, 77, 4, 21, 42],
-        [58, 51, 27, 9, 15, 22, 98, 63, 7, 102, 8, 30, 48, 80, 45],
-        [62, 99, 60, 54, 46, 101, 97, 17, 38, 70, 37, 50, 95, 91, 33],
-        [24, 23, 16, 3, 76, 68, 5, 19, 107, 75, 93, 29, 67, 85, 88],
         [11, 13, 64, 41, 49, 66, 72, 69, 71, 103, 52, 94, 79, 55, 28],
-        [56, 39]
+        [24, 23, 16, 3, 76, 68, 5, 19, 107, 75, 93, 29, 67, 85, 88],
+        [31, 44, 47, 57, 43, 32, 90, 14, 53, 78, 35, 59, 26, 40, 106],
+        [56, 39],
+        [58, 51, 27, 9, 15, 22, 98, 63, 7, 102, 8, 30, 48, 80, 45],
+        [61, 18, 96, 87, 92, 34, 100, 89, 74, 81, 65, 77, 4, 21, 42],
+        [62, 99, 60, 54, 46, 101, 97, 17, 38, 70, 37, 50, 95, 91, 33],
+        [83, 73, 105, 1, 36, 84, 25, 20, 82, 12, 2, 10, 104, 86, 6]
     ],
-    "cost": 437121.27699999994,
+    "cost": 437121.277,
     "metadata": {
         "method": "pyvrp-ils-v1",
         "seed": 42,
@@ -19,9 +19,30 @@
         "solver_cost": 437121277,
         "vehicle_penalty": 0,
         "authors": "Florian Rascoussier (0nyr) and Adrien Pichon (Anzury)",
-        "validated_cost": 437121.27699999994,
+        "validated_cost": 437121.277,
         "validated_num_routes": 8,
-        "date": "2026-08-27T02:25:04"
+        "date": "2026-08-27T02:25:04",
+        "standard": {
+            "profile": "binary64-exact-v1",
+            "objective": "MonoCost",
+            "num_routes": 8,
+            "routes_sha256": "5cc02f398a22c472a82955959826ebd5bffbb06b8d59ccf761bd6ad153584113",
+            "authoritative_cost": {
+                "numerator": "3844959414478350285",
+                "denominator": "8796093022208"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-dyadic-prepared",
+                "implementation_sha256": "93280715da2a0e48789e5e4b3caef287f5214a05e5344e6416c52bc32d38c1d3",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "3908375d91c556fe8c775da0c8fc10899f376985e9c0b3310a8a7b5b67ba2bc3"
+        }
     },
     "objective_function": "MonoCost"
 }

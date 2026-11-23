@@ -38,7 +38,28 @@
         "date": "2026-10-26T16:30:08",
         "authors": "Adrien Pichon (Anzury)",
         "validated_cost": 340609.535,
-        "validated_num_routes": 16
+        "validated_num_routes": 16,
+        "standard": {
+            "profile": "binary64-exact-v1",
+            "objective": "MonoCost",
+            "num_routes": 16,
+            "routes_sha256": "8a643fe7654ec61880bbba8ece1eb89a0ba1ce9af357361dc7dcb1378162e6eb",
+            "authoritative_cost": {
+                "numerator": "95873060931552370103",
+                "denominator": "281474976710656"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-dyadic-prepared",
+                "implementation_sha256": "93280715da2a0e48789e5e4b3caef287f5214a05e5344e6416c52bc32d38c1d3",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "93abacd63c28d5fc5700b26dee18976ee5e97d1b630a2139c66b183ed61ca232"
+        }
     },
     "objective_function": "MonoCost"
 }

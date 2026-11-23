@@ -67,7 +67,7 @@
         [198, 114, 174],
         [199, 24, 83]
     ],
-    "cost": 2232750.056999999,
+    "cost": 2232750.057,
     "metadata": {
         "method": "SCIP exact-route incumbent polishing",
         "metric": "shortest",
@@ -77,8 +77,29 @@
         "source_candidate_sha256": "3dfb0bef90bde10754485fbe20f0a9270432cc3daa7da60c9f072ff37445b845",
         "date": "2026-10-05T20:42:40",
         "authors": "Touko Ursin (GPT-6-assisted research)",
-        "validated_cost": 2232750.056999999,
-        "validated_num_routes": 65
+        "validated_cost": 2232750.057,
+        "validated_num_routes": 65,
+        "standard": {
+            "profile": "binary64-exact-v1",
+            "objective": "MonoCost",
+            "num_routes": 65,
+            "routes_sha256": "d88390897e87350d4e5e9f9c8ef71d3e91db555293e79b2b83b28f6f016f80e5",
+            "authoritative_cost": {
+                "numerator": "1256926540589581710037",
+                "denominator": "562949953421312"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-dyadic-prepared",
+                "implementation_sha256": "93280715da2a0e48789e5e4b3caef287f5214a05e5344e6416c52bc32d38c1d3",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "bda951ef6a01b3b1804c508c4b0cd4f6b9f667db299bbed880af3643edeaf31f"
+        }
     },
     "objective_function": "MonoCost"
 }

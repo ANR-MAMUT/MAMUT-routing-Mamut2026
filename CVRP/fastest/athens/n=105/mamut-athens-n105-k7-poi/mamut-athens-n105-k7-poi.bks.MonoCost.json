@@ -1,15 +1,15 @@
 {
     "instance_name": "mamut-athens-n105-k7-poi",
     "routes": [
-        [21, 73, 71, 104, 12, 81, 24, 68, 5, 74, 84, 8, 56, 91, 94, 38, 95, 87],
         [4, 13, 50, 30, 22, 97, 76, 25],
         [11, 83, 67, 89, 46, 52],
+        [21, 73, 71, 104, 12, 81, 24, 68, 5, 74, 84, 8, 56, 91, 94, 38, 95, 87],
         [23, 17, 77, 93, 78, 48, 88, 105, 26, 35, 51, 33, 96, 10, 15, 37, 43, 98],
-        [32, 80, 55, 14, 20, 36, 86, 41, 90, 54, 75, 57, 101, 1, 49, 99, 100, 58, 18, 65, 72, 60, 64, 19, 42, 70, 29, 66, 79],
         [27, 82, 47, 39, 59, 62, 6, 16, 63, 45, 28, 69, 7, 44, 9, 85],
+        [32, 80, 55, 14, 20, 36, 86, 41, 90, 54, 75, 57, 101, 1, 49, 99, 100, 58, 18, 65, 72, 60, 64, 19, 42, 70, 29, 66, 79],
         [102, 34, 92, 3, 2, 40, 61, 31, 53, 103]
     ],
-    "cost": 19819.230999999996,
+    "cost": 19819.231,
     "metadata": {
         "method": "pyvrp-ils-v1",
         "seed": 42,
@@ -18,9 +18,30 @@
         "solver_cost": 19819231,
         "vehicle_penalty": 0,
         "authors": "Florian Rascoussier (0nyr) and Adrien Pichon (Anzury)",
-        "validated_cost": 19819.230999999996,
+        "validated_cost": 19819.231,
         "validated_num_routes": 7,
-        "date": "2026-08-27T02:51:31"
+        "date": "2026-08-27T02:51:31",
+        "standard": {
+            "profile": "binary64-exact-v1",
+            "objective": "MonoCost",
+            "num_routes": 7,
+            "routes_sha256": "8b73b194c9c3cb83b0a0eb21b10a75ef76feeb10f8a64c7b23095f69869175f5",
+            "authoritative_cost": {
+                "numerator": "22314470336592445451",
+                "denominator": "1125899906842624"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-dyadic-prepared",
+                "implementation_sha256": "93280715da2a0e48789e5e4b3caef287f5214a05e5344e6416c52bc32d38c1d3",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "ca15b7f2a2715545f97acabaf6b2219a68f836365be2b2cf1a1d5b7a0c30378e"
+        }
     },
     "objective_function": "MonoCost"
 }

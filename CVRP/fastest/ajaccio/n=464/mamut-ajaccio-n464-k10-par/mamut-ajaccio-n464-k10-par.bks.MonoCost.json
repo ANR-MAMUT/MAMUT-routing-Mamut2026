@@ -12,7 +12,7 @@
         [426, 459, 463, 239, 400, 382, 193, 388, 262, 303, 461, 230, 204, 6, 171, 168, 226, 321, 53, 144, 427, 113, 58, 115, 328, 161, 434, 284, 14, 69, 84, 391, 64, 36, 38, 431, 329, 360, 1, 454, 436, 223, 15, 172, 108, 186, 72, 145, 259, 66, 105, 271, 274, 300, 460, 215, 272, 330, 177, 451, 445, 203, 46, 208, 383, 333],
         [446, 392, 286, 455, 327, 365, 381, 138, 103, 413, 342, 338, 213, 418, 440, 287, 375, 363, 221, 48, 401, 157, 452, 245, 334, 253, 159, 134, 124, 362, 190, 415, 31, 165, 146, 231, 176, 164, 210, 100, 260, 448, 104, 309, 399, 184]
     ],
-    "cost": 27022.356000000003,
+    "cost": 27022.356,
     "metadata": {
         "method": "air-hgs",
         "arm": "air_km",
@@ -31,8 +31,29 @@
         "host": "Common KVM processor",
         "date": "2026-10-26T01:01:51",
         "authors": "Adrien Pichon (Anzury)",
-        "validated_cost": 27022.356000000003,
-        "validated_num_routes": 10
+        "validated_cost": 27022.356,
+        "validated_num_routes": 10,
+        "standard": {
+            "profile": "binary64-exact-v1",
+            "objective": "MonoCost",
+            "num_routes": 10,
+            "routes_sha256": "8bfc59e8707ba6d7327087000728a601571b454037535bd990e9940794deb6c9",
+            "authoritative_cost": {
+                "numerator": "486791489649091548353",
+                "denominator": "18014398509481984"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-dyadic-prepared",
+                "implementation_sha256": "93280715da2a0e48789e5e4b3caef287f5214a05e5344e6416c52bc32d38c1d3",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "a053a2c601d9dd2951be8f3d0d552eb99df43c40fee1a52b8cd4c98928371912"
+        }
     },
     "objective_function": "MonoCost"
 }

@@ -1,17 +1,17 @@
 {
     "instance_name": "mamut-rome-n102-k9-poi",
     "routes": [
-        [55, 8, 38, 27, 77, 5, 23, 100, 84, 57, 21, 19, 15, 6, 42, 93, 58, 79, 82],
         [16, 95, 67],
-        [92, 25, 86, 41, 40, 2, 49, 37, 65, 47, 94, 56, 17, 74],
         [24, 44, 50, 83, 66, 96, 45, 59, 11, 78, 75],
-        [89, 33, 102, 90, 80, 72, 53, 10, 61, 70, 3, 91, 73],
-        [51, 14, 31, 101, 35, 46, 64, 12, 30],
         [26, 87, 88, 63, 52, 29, 22, 4, 81],
+        [51, 14, 31, 101, 35, 46, 64, 12, 30],
+        [55, 8, 38, 27, 77, 5, 23, 100, 84, 57, 21, 19, 15, 6, 42, 93, 58, 79, 82],
         [71, 98, 32, 68, 60, 85, 99, 1, 7, 9, 43, 62, 39, 28],
+        [89, 33, 102, 90, 80, 72, 53, 10, 61, 70, 3, 91, 73],
+        [92, 25, 86, 41, 40, 2, 49, 37, 65, 47, 94, 56, 17, 74],
         [97, 69, 54, 34, 76, 48, 20, 13, 18, 36]
     ],
-    "cost": 681661.9530000002,
+    "cost": 681661.953,
     "metadata": {
         "method": "pyvrp-ils-v1",
         "seed": 1,
@@ -24,9 +24,30 @@
         "phase": "seed",
         "host": "Common KVM processor",
         "authors": "Florian Rascoussier (0nyr) and Adrien Pichon (Anzury)",
-        "validated_cost": 681661.9530000002,
+        "validated_cost": 681661.953,
         "validated_num_routes": 9,
-        "date": "2026-09-22T16:21:32"
+        "date": "2026-09-22T16:21:32",
+        "standard": {
+            "profile": "binary64-exact-v1",
+            "objective": "MonoCost",
+            "num_routes": 9,
+            "routes_sha256": "cdac3e3493adb2393153e2b0863a073a7c2f3348b83cd597156ed8f4bffe8c03",
+            "authoritative_cost": {
+                "numerator": "95935391172607642255",
+                "denominator": "140737488355328"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-dyadic-prepared",
+                "implementation_sha256": "93280715da2a0e48789e5e4b3caef287f5214a05e5344e6416c52bc32d38c1d3",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "3b4b54f2051e0089ef4cb7d11e70f7bdb871d81191b1a8418a212b4b3c5cefe6"
+        }
     },
     "objective_function": "MonoCost"
 }

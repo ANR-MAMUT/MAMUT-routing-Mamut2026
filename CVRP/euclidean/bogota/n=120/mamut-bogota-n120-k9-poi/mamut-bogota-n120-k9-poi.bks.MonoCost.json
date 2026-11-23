@@ -1,17 +1,17 @@
 {
     "instance_name": "mamut-bogota-n120-k9-poi",
     "routes": [
-        [38, 5, 61, 92, 49, 23, 98, 64, 65, 45, 28, 34, 83, 115],
-        [26, 113, 60, 42, 96, 89, 30, 9, 10, 116, 112, 85, 25, 53],
-        [80, 29, 40, 111, 100, 18, 75, 12, 84, 93, 19, 66, 105, 99],
         [14, 107, 58, 27, 35, 118, 77, 119, 104, 56, 108, 110, 36, 32],
-        [90, 68, 82, 97, 63, 74, 81, 78, 54, 103, 48, 55, 67, 114],
         [17, 86, 117, 44, 21, 70, 50, 15, 24, 31, 2, 7, 22, 69],
-        [120, 11, 16, 76, 37, 6, 1, 52, 72, 102, 20, 62, 39, 87],
+        [26, 113, 60, 42, 96, 89, 30, 9, 10, 116, 112, 85, 25, 53],
+        [38, 5, 61, 92, 49, 23, 98, 64, 65, 45, 28, 34, 83, 115],
+        [71, 33, 57, 51, 3, 73, 91, 95, 13, 43, 41, 47, 88, 8],
         [79, 59, 46, 101, 94, 4, 109, 106],
-        [71, 33, 57, 51, 3, 73, 91, 95, 13, 43, 41, 47, 88, 8]
+        [80, 29, 40, 111, 100, 18, 75, 12, 84, 93, 19, 66, 105, 99],
+        [90, 68, 82, 97, 63, 74, 81, 78, 54, 103, 48, 55, 67, 114],
+        [120, 11, 16, 76, 37, 6, 1, 52, 72, 102, 20, 62, 39, 87]
     ],
-    "cost": 1825327.5909999995,
+    "cost": 1825327.591,
     "metadata": {
         "method": "pyvrp-ils-v1",
         "seed": 9,
@@ -24,9 +24,30 @@
         "phase": "seed",
         "host": "Common KVM processor",
         "authors": "Florian Rascoussier (0nyr) and Adrien Pichon (Anzury)",
-        "validated_cost": 1825327.5909999995,
+        "validated_cost": 1825327.591,
         "validated_num_routes": 9,
-        "date": "2026-09-22T16:21:34"
+        "date": "2026-09-22T16:21:34",
+        "standard": {
+            "profile": "binary64-exact-v1",
+            "objective": "MonoCost",
+            "num_routes": 9,
+            "routes_sha256": "34893a6dc97bea8639fc6f948ac8975ed5c7d19e3e0c3b837083f5d3eccfd6a1",
+            "authoritative_cost": {
+                "numerator": "128446010291510704105",
+                "denominator": "70368744177664"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-dyadic-prepared",
+                "implementation_sha256": "93280715da2a0e48789e5e4b3caef287f5214a05e5344e6416c52bc32d38c1d3",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "1730482785a66f4d559296d9870dd9e4de4ce94e184598f6b14ba31383c28c9e"
+        }
     },
     "objective_function": "MonoCost"
 }

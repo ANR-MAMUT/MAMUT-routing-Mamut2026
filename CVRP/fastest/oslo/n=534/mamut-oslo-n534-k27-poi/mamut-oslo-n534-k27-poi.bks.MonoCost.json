@@ -29,7 +29,7 @@
         [512, 210, 325, 160, 112, 196, 469, 88, 208, 145, 448, 72, 309, 195, 235, 35, 81, 161, 105, 313],
         [528, 14, 280, 475, 411, 154, 323, 336, 136, 116, 397, 324, 84, 139, 212, 178, 362, 498, 348, 360]
     ],
-    "cost": 79992.25300000006,
+    "cost": 79992.253,
     "metadata": {
         "method": "air-hgs",
         "arm": "air_km",
@@ -48,8 +48,29 @@
         "host": "Common KVM processor",
         "date": "2026-10-25T13:54:59",
         "authors": "Adrien Pichon (Anzury)",
-        "validated_cost": 79992.25300000006,
-        "validated_num_routes": 27
+        "validated_cost": 79992.253,
+        "validated_num_routes": 27,
+        "standard": {
+            "profile": "binary64-exact-v1",
+            "objective": "MonoCost",
+            "num_routes": 27,
+            "routes_sha256": "afe6c444a2246a7b8413b2384a9f86fc53cfd810aa2c6adde5df1b37fe576000",
+            "authoritative_cost": {
+                "numerator": "720506161606652876477",
+                "denominator": "9007199254740992"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-dyadic-prepared",
+                "implementation_sha256": "93280715da2a0e48789e5e4b3caef287f5214a05e5344e6416c52bc32d38c1d3",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "c07d621409b9b0464772df01391457f4ed00db7ad17b912f09314c7b604172e3"
+        }
     },
     "objective_function": "MonoCost"
 }
