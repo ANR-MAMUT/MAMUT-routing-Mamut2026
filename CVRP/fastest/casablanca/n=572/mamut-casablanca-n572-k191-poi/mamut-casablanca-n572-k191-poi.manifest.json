@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": true,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/fastest/casablanca/n=572/mamut-casablanca-n572-k191-poi/mamut-casablanca-n572-k191-poi.vrp.json",
+    "sha256": "c391ba340b52fac816df04ea80ea4787cafea4061f2554a84e8be4a7ca0a8e42"
+  },
+  "instance_name": "mamut-casablanca-n572-k191-poi",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "609203cf3ec20c990119be422743137dc86307f59d1d65c8682238db92bba0e4"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/casablanca/n=572/mamut-casablanca-n572-k191-poi/mamut-casablanca-n572-k191-poi.distances-fastest.json.gz",
+      "scope": "decompressed",
+      "sha256": "0bc223fdef6470153a032245ec771fa223028424297c25f332f89ffb1e8d951e"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "second"
+  }
+}

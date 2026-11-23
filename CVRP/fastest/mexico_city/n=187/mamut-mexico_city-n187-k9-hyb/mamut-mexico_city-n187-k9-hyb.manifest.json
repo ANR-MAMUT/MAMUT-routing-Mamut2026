@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": true,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/fastest/mexico_city/n=187/mamut-mexico_city-n187-k9-hyb/mamut-mexico_city-n187-k9-hyb.vrp.json",
+    "sha256": "8ee86970524e9cd18f2615c751ef7ac02416a2de5b882de30efbca193a94580c"
+  },
+  "instance_name": "mamut-mexico_city-n187-k9-hyb",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "606ec28630735675b003f1a3964dfe296856342d4ed52bd96da32768748d59e8"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/mexico_city/n=187/mamut-mexico_city-n187-k9-hyb/mamut-mexico_city-n187-k9-hyb.distances-fastest.json.gz",
+      "scope": "decompressed",
+      "sha256": "2d93cf7761e5ff0c3ca9d78506285aa302f423bfe02a20a0ec6e813dd776823c"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "second"
+  }
+}

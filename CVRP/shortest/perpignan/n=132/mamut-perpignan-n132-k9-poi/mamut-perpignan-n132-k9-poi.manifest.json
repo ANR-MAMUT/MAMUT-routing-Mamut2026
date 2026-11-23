@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": false,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/shortest/perpignan/n=132/mamut-perpignan-n132-k9-poi/mamut-perpignan-n132-k9-poi.vrp.json",
+    "sha256": "643107a934342842f59c172f751c4e97b34ecce5df4eda965a2241aad438c270"
+  },
+  "instance_name": "mamut-perpignan-n132-k9-poi",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "de67bfc1e569969c3d449b05f803620b7b5d8f96e21e2adc3a67eca0da565daf"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/perpignan/n=132/mamut-perpignan-n132-k9-poi/mamut-perpignan-n132-k9-poi.distances-shortest.json.gz",
+      "scope": "decompressed",
+      "sha256": "7dd5dafefde8f21076cace67c0875da626b96929391f1a1fcb9dac5ac95dca6e"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "metre"
+  }
+}

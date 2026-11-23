@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": false,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/shortest/sofia/n=977/mamut-sofia-n977-k111-poi/mamut-sofia-n977-k111-poi.vrp.json",
+    "sha256": "152106974e19eac9524fb8d06f8f5aae9e14d43661ef73d7b598bc746f59adc9"
+  },
+  "instance_name": "mamut-sofia-n977-k111-poi",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "2be755ad59ea41c34774892e9ad0484f5826667f24b47bddba6b66de101e9438"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/sofia/n=977/mamut-sofia-n977-k111-poi/mamut-sofia-n977-k111-poi.distances-shortest.json.gz",
+      "scope": "decompressed",
+      "sha256": "08eac0b200f77eed0972af68dff4557bdc9e34f0778629d6bf35a6f00be1e7fd"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "metre"
+  }
+}

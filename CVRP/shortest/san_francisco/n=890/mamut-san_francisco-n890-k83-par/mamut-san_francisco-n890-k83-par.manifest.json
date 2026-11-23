@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": false,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/shortest/san_francisco/n=890/mamut-san_francisco-n890-k83-par/mamut-san_francisco-n890-k83-par.vrp.json",
+    "sha256": "2a44be6ab0a85ad33cb0f037e20ed0ba38ed6e374aa4314ca9463b202ffea914"
+  },
+  "instance_name": "mamut-san_francisco-n890-k83-par",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "ba3cc1a5168f66bf56fd3810f4eb9c1e3668a72ba3fa5ba5a0e946d2bd8e22a6"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/san_francisco/n=890/mamut-san_francisco-n890-k83-par/mamut-san_francisco-n890-k83-par.distances-shortest.json.gz",
+      "scope": "decompressed",
+      "sha256": "53719870197923f56ed84641c0edb4f3c2a3349c1a03a7d7e111f2f65d2caa51"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "metre"
+  }
+}

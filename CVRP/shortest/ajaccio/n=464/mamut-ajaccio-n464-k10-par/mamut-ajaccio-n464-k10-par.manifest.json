@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": false,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/shortest/ajaccio/n=464/mamut-ajaccio-n464-k10-par/mamut-ajaccio-n464-k10-par.vrp.json",
+    "sha256": "e29f5d8f1de58e9f27df8c3efee6a3ca729f5f4daf3b442cd1d1af85e10d1a1c"
+  },
+  "instance_name": "mamut-ajaccio-n464-k10-par",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "8a6dec5ee7cefe49bd7c6b15fc73299b1d7705a14aa4effaafb5db8e30168374"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/ajaccio/n=464/mamut-ajaccio-n464-k10-par/mamut-ajaccio-n464-k10-par.distances-shortest.json.gz",
+      "scope": "decompressed",
+      "sha256": "11b5f2ffe87d48536001919e8f81e4a4c78095f84d5dd8e95facb8c294a6c73c"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "metre"
+  }
+}

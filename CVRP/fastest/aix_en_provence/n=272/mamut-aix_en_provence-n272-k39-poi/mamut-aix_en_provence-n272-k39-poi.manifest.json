@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": true,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/fastest/aix_en_provence/n=272/mamut-aix_en_provence-n272-k39-poi/mamut-aix_en_provence-n272-k39-poi.vrp.json",
+    "sha256": "5d88d8095e1307dee2a6ff5bbb936055e12e05fcf1a9af5a5dd6fe902145c1f6"
+  },
+  "instance_name": "mamut-aix_en_provence-n272-k39-poi",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "45611ca4427519c053e3ae74f2ff2cb55a7b7cb187442cfeaa0891afebe205d3"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/aix_en_provence/n=272/mamut-aix_en_provence-n272-k39-poi/mamut-aix_en_provence-n272-k39-poi.distances-fastest.json.gz",
+      "scope": "decompressed",
+      "sha256": "04af042c9c235d3ba8e611f3cca72899b9350ae0b529ebbba5cedd9963bfc8a5"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "second"
+  }
+}

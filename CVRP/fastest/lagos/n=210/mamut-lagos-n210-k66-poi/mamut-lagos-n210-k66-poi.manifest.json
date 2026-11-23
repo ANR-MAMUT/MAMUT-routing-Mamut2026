@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": true,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/fastest/lagos/n=210/mamut-lagos-n210-k66-poi/mamut-lagos-n210-k66-poi.vrp.json",
+    "sha256": "c24ef3822b9480bf56f420e9822c4726a6a3323af07806113685d2d2a4bc35be"
+  },
+  "instance_name": "mamut-lagos-n210-k66-poi",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "21f3ed206897eeec9f3cd1d743ee2df27dd33e4703b79cc9c074a8b534ff5d0b"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/lagos/n=210/mamut-lagos-n210-k66-poi/mamut-lagos-n210-k66-poi.distances-fastest.json.gz",
+      "scope": "decompressed",
+      "sha256": "0c8c943aa2d496aa1e0ebdc63f45fe09ac7e4bfb6df653eec60671fd1e9d79c7"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "second"
+  }
+}

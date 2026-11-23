@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": false,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/shortest/sydney/n=118/mamut-sydney-n118-k9-poi/mamut-sydney-n118-k9-poi.vrp.json",
+    "sha256": "bd7445ebe3220bdb3c8ac0b617a5da9233c4ad0bdb9cd9da361b2bb9a45095a8"
+  },
+  "instance_name": "mamut-sydney-n118-k9-poi",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "7a81499ea315efeeb95ca3e23e929cefbffa7bdf89c203247e69a3021313d8b4"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/sydney/n=118/mamut-sydney-n118-k9-poi/mamut-sydney-n118-k9-poi.distances-shortest.json.gz",
+      "scope": "decompressed",
+      "sha256": "1dc72d783ed1bbd3700ce7a9a51f2530a27bb657a63295abfb58e4d0acca3735"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "metre"
+  }
+}

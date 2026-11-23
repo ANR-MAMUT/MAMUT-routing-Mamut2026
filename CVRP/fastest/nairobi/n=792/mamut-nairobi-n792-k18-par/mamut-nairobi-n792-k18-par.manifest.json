@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": true,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/fastest/nairobi/n=792/mamut-nairobi-n792-k18-par/mamut-nairobi-n792-k18-par.vrp.json",
+    "sha256": "cf6604d25c289f8c4a076e979b3a43a2b7c6e51920800dc18937dd112805335a"
+  },
+  "instance_name": "mamut-nairobi-n792-k18-par",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "fe719189dacbf76fa47b0f9ba9a6ba892624ecaf032df9062394bef28ed7ad86"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/nairobi/n=792/mamut-nairobi-n792-k18-par/mamut-nairobi-n792-k18-par.distances-fastest.json.gz",
+      "scope": "decompressed",
+      "sha256": "d26662059edfc0fb57d7e3e8f178ad004b0440eec12bebb4dc262925e9e9441c"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "second"
+  }
+}

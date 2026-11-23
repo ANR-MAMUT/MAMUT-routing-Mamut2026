@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": true,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/fastest/hong_kong/n=955/mamut-hong_kong-n955-k207-par/mamut-hong_kong-n955-k207-par.vrp.json",
+    "sha256": "e0adbf1cfbeb3d113f939315f632bf2b577bf24b8653687a5e7a0077d7477fd4"
+  },
+  "instance_name": "mamut-hong_kong-n955-k207-par",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "a3e68344709d1a22784984682cd509c813c7c1cf1414183e35abcb3162c27f0c"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/hong_kong/n=955/mamut-hong_kong-n955-k207-par/mamut-hong_kong-n955-k207-par.distances-fastest.json.gz",
+      "scope": "decompressed",
+      "sha256": "d1aa63e47ed57137189492fe3cf6823e54551569be9b66f8c7b3444429fd2491"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "second"
+  }
+}

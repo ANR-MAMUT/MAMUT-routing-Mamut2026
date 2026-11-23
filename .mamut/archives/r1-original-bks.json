@@ -1,0 +1,1330 @@
+{
+  "family": "Mamut2026",
+  "archive": {
+    "path": ".mamut/artifacts/eb54c33a12e795b53a5b6e543f4506e3a4ee7aaffbb39a744027e35e6ac22042/Mamut2026-r1-original-bks.tar.gz",
+    "scope": "file",
+    "sha256": "eb54c33a12e795b53a5b6e543f4506e3a4ee7aaffbb39a744027e35e6ac22042"
+  },
+  "members": [
+    {
+      "path": "CVRP/euclidean/aix_en_provence/n=272/mamut-aix_en_provence-n272-k39-poi/mamut-aix_en_provence-n272-k39-poi.bks.MonoCost.json",
+      "sha256": "5af06d76f392f667311a644b9085f6f91499f47e6bd1bf7c13571881b35fc5c8"
+    },
+    {
+      "path": "CVRP/euclidean/ajaccio/n=464/mamut-ajaccio-n464-k10-par/mamut-ajaccio-n464-k10-par.bks.MonoCost.json",
+      "sha256": "780384f70c52b4610d2113ff49a0bfcef064cbe7b7ff5cdd4b20cb4bce17ddeb"
+    },
+    {
+      "path": "CVRP/euclidean/albi/n=368/mamut-albi-n368-k10-par/mamut-albi-n368-k10-par.bks.MonoCost.json",
+      "sha256": "72293df9e0e7751ae60a86cc3350e2a1654ff0b3a47687037de1a1e333bb0aec"
+    },
+    {
+      "path": "CVRP/euclidean/amiens/n=156/mamut-amiens-n156-k7-poi/mamut-amiens-n156-k7-poi.bks.MonoCost.json",
+      "sha256": "513a182adacc459a44312344e6b2d7431b82709b7310109f2b449cf0db442c5e"
+    },
+    {
+      "path": "CVRP/euclidean/amsterdam/n=722/mamut-amsterdam-n722-k69-hyb/mamut-amsterdam-n722-k69-hyb.bks.MonoCost.json",
+      "sha256": "f819005e6a1b2d42adde3fb958ebf6b1a6d1b26389f70802087b0b644e89a0d2"
+    },
+    {
+      "path": "CVRP/euclidean/angers/n=413/mamut-angers-n413-k95-hyb/mamut-angers-n413-k95-hyb.bks.MonoCost.json",
+      "sha256": "cf543696b2e52f112f481619b643441e22ce30285d2b2e8553efc880b70aef80"
+    },
+    {
+      "path": "CVRP/euclidean/annecy/n=404/mamut-annecy-n404-k11-hyb/mamut-annecy-n404-k11-hyb.bks.MonoCost.json",
+      "sha256": "dae341dac75eb8e3cf56c960befb995498f558a27254e1943940eb353b8e87d8"
+    },
+    {
+      "path": "CVRP/euclidean/arles/n=179/mamut-arles-n179-k11-par/mamut-arles-n179-k11-par.bks.MonoCost.json",
+      "sha256": "5b3d69b722f70b963d8b8631ef7fce6bef907adb6b67ab62cda05259a72edecf"
+    },
+    {
+      "path": "CVRP/euclidean/athens/n=105/mamut-athens-n105-k7-poi/mamut-athens-n105-k7-poi.bks.MonoCost.json",
+      "sha256": "36d9cecca69722bab3d0fefc2e40123e5d7bf669b682d3272e2eb9774e79d2bc"
+    },
+    {
+      "path": "CVRP/euclidean/auckland/n=1500/mamut-auckland-n1500-k12-poi/mamut-auckland-n1500-k12-poi.bks.MonoCost.json",
+      "sha256": "89823115c1864651fc918c55452a603289ae4ba69ec619aff13b32f894729167"
+    },
+    {
+      "path": "CVRP/euclidean/auckland/n=830/mamut-auckland-n830-k30-poi/mamut-auckland-n830-k30-poi.bks.MonoCost.json",
+      "sha256": "a9a1eb20e1a0af4034d749308c049000b67480270dcc7860528326838ae5a822"
+    },
+    {
+      "path": "CVRP/euclidean/bangkok/n=242/mamut-bangkok-n242-k49-hyb/mamut-bangkok-n242-k49-hyb.bks.MonoCost.json",
+      "sha256": "a7ea5055bdf2257b215c50aaf0a831ad856339ed37c33db864335e0a5978c291"
+    },
+    {
+      "path": "CVRP/euclidean/barcelona/n=107/mamut-barcelona-n107-k8-poi/mamut-barcelona-n107-k8-poi.bks.MonoCost.json",
+      "sha256": "422bfdcd69fc6cfaf5045673afe955da4f176db1ae1bcee1f28251188e8a05b0"
+    },
+    {
+      "path": "CVRP/euclidean/bastia/n=486/mamut-bastia-n486-k22-par/mamut-bastia-n486-k22-par.bks.MonoCost.json",
+      "sha256": "bac259069b4c0633e2ae474c616539f6ff92e38ab56bf594124cb64d131b68d3"
+    },
+    {
+      "path": "CVRP/euclidean/bayonne/n=292/mamut-bayonne-n292-k33-hyb/mamut-bayonne-n292-k33-hyb.bks.MonoCost.json",
+      "sha256": "d1f3a478db1492fc637013b8e5f41d285cc21b6d52c3edc7547a83def9821c30"
+    },
+    {
+      "path": "CVRP/euclidean/berlin/n=145/mamut-berlin-n145-k11-hyb/mamut-berlin-n145-k11-hyb.bks.MonoCost.json",
+      "sha256": "d443d7c1feaca6cfe88b559726a465336cd6835f39c64019f593eb2c7833bf33"
+    },
+    {
+      "path": "CVRP/euclidean/besancon/n=183/mamut-besancon-n183-k10-poi/mamut-besancon-n183-k10-poi.bks.MonoCost.json",
+      "sha256": "74e5343b8e45085aba402f676e6d016e20bc306dce80a0ba803d7af1c2c16d2b"
+    },
+    {
+      "path": "CVRP/euclidean/biarritz/n=226/mamut-biarritz-n226-k60-par/mamut-biarritz-n226-k60-par.bks.MonoCost.json",
+      "sha256": "0df43e9cbf7d164a6ddaae9c35f27aa48ded3902b982a3e2c14984ba21474853"
+    },
+    {
+      "path": "CVRP/euclidean/bogota/n=120/mamut-bogota-n120-k9-poi/mamut-bogota-n120-k9-poi.bks.MonoCost.json",
+      "sha256": "cebeb0145169254e32f6a86a3c23da237d52f7211faa48ad8a440451cfd62f1d"
+    },
+    {
+      "path": "CVRP/euclidean/bogota/n=4000/mamut-bogota-n4000-k508-poi/mamut-bogota-n4000-k508-poi.bks.MonoCost.json",
+      "sha256": "ddfb9e48f82bf6b52e6aba7940e23ea69ee4bcb3ff426123eb635bb1bb1966d0"
+    },
+    {
+      "path": "CVRP/euclidean/bordeaux/n=756/mamut-bordeaux-n756-k250-hyb/mamut-bordeaux-n756-k250-hyb.bks.MonoCost.json",
+      "sha256": "83ec55d63c56629450bbab5293faf6ea58d2b52827a414b2175744a6f2dbcebd"
+    },
+    {
+      "path": "CVRP/euclidean/bourges/n=443/mamut-bourges-n443-k46-par/mamut-bourges-n443-k46-par.bks.MonoCost.json",
+      "sha256": "55452fc509a0edc90076bff07000ab4ecd7f1c54790bbe05859cb5ff34928ad9"
+    },
+    {
+      "path": "CVRP/euclidean/brest/n=167/mamut-brest-n167-k10-par/mamut-brest-n167-k10-par.bks.MonoCost.json",
+      "sha256": "912e4823f3164a1b7d7fe173b4b3f8a5810a46f3996c32cd7cde13fc95476cba"
+    },
+    {
+      "path": "CVRP/euclidean/brussels/n=343/mamut-brussels-n343-k46-poi/mamut-brussels-n343-k46-poi.bks.MonoCost.json",
+      "sha256": "22ccb7c10fb752f7143907ad76320847e54ca5ced4333d68b91a5bfe349d7465"
+    },
+    {
+      "path": "CVRP/euclidean/budapest/n=614/mamut-budapest-n614-k22-hyb/mamut-budapest-n614-k22-hyb.bks.MonoCost.json",
+      "sha256": "7582449120d8ac3d17ffa13b1d61306593a899982c1bab3fc0a7e03fd96aeb1a"
+    },
+    {
+      "path": "CVRP/euclidean/buenos_aires/n=215/mamut-buenos_aires-n215-k53-hyb/mamut-buenos_aires-n215-k53-hyb.bks.MonoCost.json",
+      "sha256": "4760588fc67f028cb9bb97d99ff86935c20bfd16419f2ca56e2b0fe378dd3150"
+    },
+    {
+      "path": "CVRP/euclidean/caen/n=192/mamut-caen-n192-k64-poi/mamut-caen-n192-k64-poi.bks.MonoCost.json",
+      "sha256": "951533b92c9d98147ae20cc6d0c55701f6f2dfb79e0d8e1511ffbee207020946"
+    },
+    {
+      "path": "CVRP/euclidean/cairo/n=546/mamut-cairo-n546-k26-poi/mamut-cairo-n546-k26-poi.bks.MonoCost.json",
+      "sha256": "bab2c692113de982ba1dba347c83e90dac15e752599d48161675982ad0086e14"
+    },
+    {
+      "path": "CVRP/euclidean/carcassonne/n=394/mamut-carcassonne-n394-k20-par/mamut-carcassonne-n394-k20-par.bks.MonoCost.json",
+      "sha256": "dd394fd6166023177b2334fbea41540bdea130c4a42491251d6d2a6a78e202d7"
+    },
+    {
+      "path": "CVRP/euclidean/casablanca/n=572/mamut-casablanca-n572-k191-poi/mamut-casablanca-n572-k191-poi.bks.MonoCost.json",
+      "sha256": "c3b86b13b1b537d9da5469520c4d0a200828fb0daaa71b0868a167840cafca2f"
+    },
+    {
+      "path": "CVRP/euclidean/chambery/n=236/mamut-chambery-n236-k48-par/mamut-chambery-n236-k48-par.bks.MonoCost.json",
+      "sha256": "eda91c29ee2afd4a02b4f047ec22cfc2e9b6b8574361b412a2f0ccf7f257c050"
+    },
+    {
+      "path": "CVRP/euclidean/chartres/n=475/mamut-chartres-n475-k53-par/mamut-chartres-n475-k53-par.bks.MonoCost.json",
+      "sha256": "aab6ef8bf57fc4bde1bca1284114f38230701143de87e109d0ae10ff60c5c111"
+    },
+    {
+      "path": "CVRP/euclidean/chicago/n=285/mamut-chicago-n285-k91-poi/mamut-chicago-n285-k91-poi.bks.MonoCost.json",
+      "sha256": "d466dca55e1bd8ebde46091aa07d303fdb2798ac432fc463a0247211b84bfc29"
+    },
+    {
+      "path": "CVRP/euclidean/clermont_ferrand/n=129/mamut-clermont_ferrand-n129-k9-poi/mamut-clermont_ferrand-n129-k9-poi.bks.MonoCost.json",
+      "sha256": "d5bf1dd491480b3b6ed46452f0fa85d615235a2140c26de6e5e2baa5ea3ad853"
+    },
+    {
+      "path": "CVRP/euclidean/copenhagen/n=739/mamut-copenhagen-n739-k203-hyb/mamut-copenhagen-n739-k203-hyb.bks.MonoCost.json",
+      "sha256": "a41e81f4e4314139cf87a461626a1c309df8a82ed8fe5f70e4e827032895dfa4"
+    },
+    {
+      "path": "CVRP/euclidean/dakar/n=1500/mamut-dakar-n1500-k364-poi/mamut-dakar-n1500-k364-poi.bks.MonoCost.json",
+      "sha256": "c5f37fa66f55194e1ce3c19e12e0e4585696f8e306feb67189907e6b9ffe1cc8"
+    },
+    {
+      "path": "CVRP/euclidean/dakar/n=521/mamut-dakar-n521-k12-poi/mamut-dakar-n521-k12-poi.bks.MonoCost.json",
+      "sha256": "c9101112e58960650aedea0906c2d352f33a2d9b01df0914d5d6b4ebfa2e0f85"
+    },
+    {
+      "path": "CVRP/euclidean/dijon/n=231/mamut-dijon-n231-k38-poi/mamut-dijon-n231-k38-poi.bks.MonoCost.json",
+      "sha256": "9d1b8e3ad5f8b4c51e3dcedf8b021a848e85eaa17a87bdcbbca21125b7ad5920"
+    },
+    {
+      "path": "CVRP/euclidean/dublin/n=673/mamut-dublin-n673-k14-poi/mamut-dublin-n673-k14-poi.bks.MonoCost.json",
+      "sha256": "5f0b3a843eda287c1f8fc269925ecb3cc4a364a37e3a129f2aa5aca6dc6a5c8b"
+    },
+    {
+      "path": "CVRP/euclidean/grenoble/n=376/mamut-grenoble-n376-k34-poi/mamut-grenoble-n376-k34-poi.bks.MonoCost.json",
+      "sha256": "b4056ebc1f9b319e00ce8b4cb4c8c57e99d63c788e0a57acd3629f975d90cd3b"
+    },
+    {
+      "path": "CVRP/euclidean/hanoi/n=850/mamut-hanoi-n850-k101-par/mamut-hanoi-n850-k101-par.bks.MonoCost.json",
+      "sha256": "e2df6d9a44a7a8cdfb3bc7b096f68853fd080769243999972ac23bec2c4d7d67"
+    },
+    {
+      "path": "CVRP/euclidean/helsinki/n=658/mamut-helsinki-n658-k20-poi/mamut-helsinki-n658-k20-poi.bks.MonoCost.json",
+      "sha256": "13d1533aa26191ce9366022b54f078f6cc7785f474bb7672fbedad7ee3c7bff5"
+    },
+    {
+      "path": "CVRP/euclidean/hong_kong/n=955/mamut-hong_kong-n955-k207-par/mamut-hong_kong-n955-k207-par.bks.MonoCost.json",
+      "sha256": "700481cc5e0d046e34917c2d60e72976d54e2cc108c390979f73c0b7cab8b3f7"
+    },
+    {
+      "path": "CVRP/euclidean/johannesburg/n=911/mamut-johannesburg-n911-k83-par/mamut-johannesburg-n911-k83-par.bks.MonoCost.json",
+      "sha256": "bd23d4dc6532dbdd45aa54e0b962b5232ef6b24165e2ab2de64dcb97c659d824"
+    },
+    {
+      "path": "CVRP/euclidean/kuala_lumpur/n=305/mamut-kuala_lumpur-n305-k42-poi/mamut-kuala_lumpur-n305-k42-poi.bks.MonoCost.json",
+      "sha256": "256eb77e237738f49eb813b5c7ce4e872c9f4e0979cdedf1dc07cc2826bf2b43"
+    },
+    {
+      "path": "CVRP/euclidean/lagos/n=210/mamut-lagos-n210-k66-poi/mamut-lagos-n210-k66-poi.bks.MonoCost.json",
+      "sha256": "fe8468865ff64ecda8833700f29e7dd18ecc10559de73872e99baeed2f525c88"
+    },
+    {
+      "path": "CVRP/euclidean/le_havre/n=163/mamut-le_havre-n163-k7-par/mamut-le_havre-n163-k7-par.bks.MonoCost.json",
+      "sha256": "31a05a67849c375837bf2a9a85e82591850282fff51efdb28d9aa880cba0d36b"
+    },
+    {
+      "path": "CVRP/euclidean/le_mans/n=148/mamut-le_mans-n148-k16-poi/mamut-le_mans-n148-k16-poi.bks.MonoCost.json",
+      "sha256": "616a20a8ce0e934bb358a8e8991db0c77a8e32ba4627d53351f1cb16ccdb7de7"
+    },
+    {
+      "path": "CVRP/euclidean/lille/n=559/mamut-lille-n559-k66-poi/mamut-lille-n559-k66-poi.bks.MonoCost.json",
+      "sha256": "ae85fbbb4f8eca3b93d4cae81abeba80f104ad691654b4bc8c575a72d8179ef1"
+    },
+    {
+      "path": "CVRP/euclidean/limoges/n=152/mamut-limoges-n152-k7-poi/mamut-limoges-n152-k7-poi.bks.MonoCost.json",
+      "sha256": "f2338f58378f7bf994f4ae231b3fa4d14f48d60a4493db7ca8efcbd3aff344b8"
+    },
+    {
+      "path": "CVRP/euclidean/lisbon/n=643/mamut-lisbon-n643-k29-hyb/mamut-lisbon-n643-k29-hyb.bks.MonoCost.json",
+      "sha256": "0f0ffb8629336f7b59913d5ee3ba51d112c9a9c09bba1be9eec6b17a3a28aaac"
+    },
+    {
+      "path": "CVRP/euclidean/london/n=115/mamut-london-n115-k9-hyb/mamut-london-n115-k9-hyb.bks.MonoCost.json",
+      "sha256": "ba40e4597f03eb314d125f1fc89984758c675fcd7565a223ea953c226fb36998"
+    },
+    {
+      "path": "CVRP/euclidean/lorient/n=453/mamut-lorient-n453-k114-par/mamut-lorient-n453-k114-par.bks.MonoCost.json",
+      "sha256": "6144b5ea26640c43c6043404616392244709c1ff073b24f8a02fa0f61747bdcd"
+    },
+    {
+      "path": "CVRP/euclidean/los_angeles/n=159/mamut-los_angeles-n159-k9-hyb/mamut-los_angeles-n159-k9-hyb.bks.MonoCost.json",
+      "sha256": "35b6b7065cf437550f07d8f79b373823a2b098f306054a16fc155d2ff6a6d56c"
+    },
+    {
+      "path": "CVRP/euclidean/luxembourg/n=206/mamut-luxembourg-n206-k65-poi/mamut-luxembourg-n206-k65-poi.bks.MonoCost.json",
+      "sha256": "5952c943a01a561be390d0f98d34eb016193b56b12732a50cfb3ea838f234b10"
+    },
+    {
+      "path": "CVRP/euclidean/lyon/n=1000/mamut-lyon-n1000-k91-poi/mamut-lyon-n1000-k91-poi.bks.MonoCost.json",
+      "sha256": "5c1606f8d6dc0e162efdd13778a96cb4186707c3093fe7124fc15906e03d8dd8"
+    },
+    {
+      "path": "CVRP/euclidean/madrid/n=586/mamut-madrid-n586-k18-par/mamut-madrid-n586-k18-par.bks.MonoCost.json",
+      "sha256": "7263903652a6275154e366f1a66fde61c63f626ddcfa1cbc21c1bb2a4477d7fe"
+    },
+    {
+      "path": "CVRP/euclidean/manila/n=221/mamut-manila-n221-k48-hyb/mamut-manila-n221-k48-hyb.bks.MonoCost.json",
+      "sha256": "71322ccddeaad9ea336ebe88b31fae5c0e4f2e027b67ee18dfbd5d5709463524"
+    },
+    {
+      "path": "CVRP/euclidean/manila/n=2500/mamut-manila-n2500-k54-poi/mamut-manila-n2500-k54-poi.bks.MonoCost.json",
+      "sha256": "822a9718bcc33a5bd9494131eccd6ebb58da0c9a7fa144653ebf9e46789c272b"
+    },
+    {
+      "path": "CVRP/euclidean/marseille/n=774/mamut-marseille-n774-k17-poi/mamut-marseille-n774-k17-poi.bks.MonoCost.json",
+      "sha256": "01e6675531407f557571413c7e93ae89c352b602dab1bfe92efcb4a5b49d7ed4"
+    },
+    {
+      "path": "CVRP/euclidean/metz/n=135/mamut-metz-n135-k10-poi/mamut-metz-n135-k10-poi.bks.MonoCost.json",
+      "sha256": "dfdcf724a8599d1941a3c4fad4f79753219e1a85c91e222f4ba2d7a1331dc999"
+    },
+    {
+      "path": "CVRP/euclidean/mexico_city/n=187/mamut-mexico_city-n187-k9-hyb/mamut-mexico_city-n187-k9-hyb.bks.MonoCost.json",
+      "sha256": "2917eec0091957aa0e83882a48bd2e161541856dabbf484cc0e94f9bba5fb8c1"
+    },
+    {
+      "path": "CVRP/euclidean/montpellier/n=870/mamut-montpellier-n870-k105-hyb/mamut-montpellier-n870-k105-hyb.bks.MonoCost.json",
+      "sha256": "830cb84634b3928988718beba3569e89831345de35d53075f47ee590965bfde8"
+    },
+    {
+      "path": "CVRP/euclidean/montreal/n=112/mamut-montreal-n112-k9-par/mamut-montreal-n112-k9-par.bks.MonoCost.json",
+      "sha256": "23b1b3e9283fbc1e2e19cd233e107870eb4d31c35e5f90280bdaf4249393da11"
+    },
+    {
+      "path": "CVRP/euclidean/montreal/n=4000/mamut-montreal-n4000-k378-poi/mamut-montreal-n4000-k378-poi.bks.MonoCost.json",
+      "sha256": "2ba96ad4dcfbb28a68888df5a217dae5b2bb4beff561cd257fa92ab9e80b26fd"
+    },
+    {
+      "path": "CVRP/euclidean/mulhouse/n=254/mamut-mulhouse-n254-k42-par/mamut-mulhouse-n254-k42-par.bks.MonoCost.json",
+      "sha256": "28b13ca22894f1091eb3d6ac38407b01781b0382d640568b74d806ae50f2625d"
+    },
+    {
+      "path": "CVRP/euclidean/mumbai/n=359/mamut-mumbai-n359-k44-poi/mamut-mumbai-n359-k44-poi.bks.MonoCost.json",
+      "sha256": "bcea67b89ead827df41f36624a57db0d02b57077a3f85c0445730c209872da63"
+    },
+    {
+      "path": "CVRP/euclidean/nairobi/n=792/mamut-nairobi-n792-k18-par/mamut-nairobi-n792-k18-par.bks.MonoCost.json",
+      "sha256": "e79763ee3aa8f31f318de79a2c6d641c57e5a844526ad57d16dad4d1b5b46e80"
+    },
+    {
+      "path": "CVRP/euclidean/nancy/n=433/mamut-nancy-n433-k9-hyb/mamut-nancy-n433-k9-hyb.bks.MonoCost.json",
+      "sha256": "d8a5274c132cd3a733c1a875509551b2ee2176bec8496a4101533650842ed7bd"
+    },
+    {
+      "path": "CVRP/euclidean/nantes/n=498/mamut-nantes-n498-k11-poi/mamut-nantes-n498-k11-poi.bks.MonoCost.json",
+      "sha256": "66e97204a19b97094121f6fab8ac232dbdf7c9000a7faf980f79c628bbaccfa9"
+    },
+    {
+      "path": "CVRP/euclidean/new_york/n=142/mamut-new_york-n142-k9-hyb/mamut-new_york-n142-k9-hyb.bks.MonoCost.json",
+      "sha256": "34dc72f06af910200f1b5b11918a739624d82c7f7464b29ee183148c68c40118"
+    },
+    {
+      "path": "CVRP/euclidean/nice/n=385/mamut-nice-n385-k12-poi/mamut-nice-n385-k12-poi.bks.MonoCost.json",
+      "sha256": "a98fefa84c6d2b984371ad9b9b95e198e3eb2cbc721bdaad7c7adda848737d5d"
+    },
+    {
+      "path": "CVRP/euclidean/nimes/n=175/mamut-nimes-n175-k8-poi/mamut-nimes-n175-k8-poi.bks.MonoCost.json",
+      "sha256": "120c92e48d5cf4ed3f736908172c69e823be81c7c8c3718cdf09fe0dec93d286"
+    },
+    {
+      "path": "CVRP/euclidean/orleans/n=201/mamut-orleans-n201-k62-poi/mamut-orleans-n201-k62-poi.bks.MonoCost.json",
+      "sha256": "d8de34449e050a308d95dced6babc44de805eb2c09c4a772933c0b99ff8bc840"
+    },
+    {
+      "path": "CVRP/euclidean/oslo/n=534/mamut-oslo-n534-k27-poi/mamut-oslo-n534-k27-poi.bks.MonoCost.json",
+      "sha256": "40f7ca90cd683ca91a98f1a280b8595c2e34b216c6aa057803fe07fbcc5114ae"
+    },
+    {
+      "path": "CVRP/euclidean/paris/n=1500/mamut-paris-n1500-k107-poi/mamut-paris-n1500-k107-poi.bks.MonoCost.json",
+      "sha256": "8946ee206aebb59cd419a3228f575b5e1da481d52145cf3a13fd11787e6f79b2"
+    },
+    {
+      "path": "CVRP/euclidean/paris/n=171/mamut-paris-n171-k8-hyb/mamut-paris-n171-k8-hyb.bks.MonoCost.json",
+      "sha256": "ddf788db6451a9b4acee864cc3dd0d9de774826b1af619ba641382334d616011"
+    },
+    {
+      "path": "CVRP/euclidean/pau/n=327/mamut-pau-n327-k46-hyb/mamut-pau-n327-k46-hyb.bks.MonoCost.json",
+      "sha256": "f57bfa2d127f1ade7f71d7b851278615f4d9033c7e4f593947e7b52f7de6fced"
+    },
+    {
+      "path": "CVRP/euclidean/perpignan/n=132/mamut-perpignan-n132-k9-poi/mamut-perpignan-n132-k9-poi.bks.MonoCost.json",
+      "sha256": "615a8532bdb03160010ddf404d47382785a98fc9a8c8267696185f841d62fb8a"
+    },
+    {
+      "path": "CVRP/euclidean/prague/n=2000/mamut-prague-n2000-k13-poi/mamut-prague-n2000-k13-poi.bks.MonoCost.json",
+      "sha256": "4bb8e3193f6c5582265782c5e4ad6911258a83263f1e085e6de87db5929683da"
+    },
+    {
+      "path": "CVRP/euclidean/prague/n=313/mamut-prague-n313-k11-poi/mamut-prague-n313-k11-poi.bks.MonoCost.json",
+      "sha256": "a2cd9f9279eb6e2b83fbe4339ac900cd0d2c1c05cc129cbdaa9dc7bcc9d3e3a2"
+    },
+    {
+      "path": "CVRP/euclidean/quimper/n=278/mamut-quimper-n278-k48-par/mamut-quimper-n278-k48-par.bks.MonoCost.json",
+      "sha256": "86c3ab2dd289342da449371591df9360f6faee301e4bd8c30e08d74a23793b91"
+    },
+    {
+      "path": "CVRP/euclidean/reims/n=320/mamut-reims-n320-k64-hyb/mamut-reims-n320-k64-hyb.bks.MonoCost.json",
+      "sha256": "34e91b41a2afe626b45480962a550b6583f771488189d609c7c911eac00e8ccc"
+    },
+    {
+      "path": "CVRP/euclidean/rennes/n=599/mamut-rennes-n599-k115-hyb/mamut-rennes-n599-k115-hyb.bks.MonoCost.json",
+      "sha256": "5d1f6e6d0ddc405e4e82f5022a13fef1cdf597e1cdff2423901f2c9afed405ce"
+    },
+    {
+      "path": "CVRP/euclidean/reykjavik/n=138/mamut-reykjavik-n138-k10-poi/mamut-reykjavik-n138-k10-poi.bks.MonoCost.json",
+      "sha256": "732930ad9e6ed8814b006d4b4eed57cf21a3f799ecb8d88e8b3303aac0c88487"
+    },
+    {
+      "path": "CVRP/euclidean/riga/n=423/mamut-riga-n423-k105-poi/mamut-riga-n423-k105-poi.bks.MonoCost.json",
+      "sha256": "63f10bd58541f0d1c5717d528702538db2900168a500b4faf6f928c4a9047965"
+    },
+    {
+      "path": "CVRP/euclidean/rome/n=102/mamut-rome-n102-k9-poi/mamut-rome-n102-k9-poi.bks.MonoCost.json",
+      "sha256": "d0886ccd029c0cd13925a9253792f1cce58f6a5dc03ce745dbf5a3e68b3fc2f7"
+    },
+    {
+      "path": "CVRP/euclidean/rouen/n=266/mamut-rouen-n266-k36-poi/mamut-rouen-n266-k36-poi.bks.MonoCost.json",
+      "sha256": "8437203173e72ce93d06260cc23fadb9e92d9a7fcc51a03489e9bf8d6450ee88"
+    },
+    {
+      "path": "CVRP/euclidean/saint_etienne/n=248/mamut-saint_etienne-n248-k43-poi/mamut-saint_etienne-n248-k43-poi.bks.MonoCost.json",
+      "sha256": "a3f7163bc915c6cc7495cfbb991e2a7def1893e97c403030666e8e58fcdbf458"
+    },
+    {
+      "path": "CVRP/euclidean/saint_malo/n=260/mamut-saint_malo-n260-k35-par/mamut-saint_malo-n260-k35-par.bks.MonoCost.json",
+      "sha256": "fbe117a63d25030c07ca3b9cadbbc0734b176928196d370f4ae638bd5faa28a8"
+    },
+    {
+      "path": "CVRP/euclidean/san_francisco/n=890/mamut-san_francisco-n890-k83-par/mamut-san_francisco-n890-k83-par.bks.MonoCost.json",
+      "sha256": "9b15131660dc6b997631a863152fb69051c3cb5378438398f184fb7783dd2db4"
+    },
+    {
+      "path": "CVRP/euclidean/sao_paulo/n=123/mamut-sao_paulo-n123-k9-poi/mamut-sao_paulo-n123-k9-poi.bks.MonoCost.json",
+      "sha256": "2d5d4549008a78c666d6486b650182bf0f3dc6b6309a7d21f0c5a71e15aa2697"
+    },
+    {
+      "path": "CVRP/euclidean/singapore/n=126/mamut-singapore-n126-k10-poi/mamut-singapore-n126-k10-poi.bks.MonoCost.json",
+      "sha256": "b0d7d0d8c11a1c86b144801572a0d0db15c23e81dbfa08fd372ad48a181ada0f"
+    },
+    {
+      "path": "CVRP/euclidean/singapore/n=4000/mamut-singapore-n4000-k498-poi/mamut-singapore-n4000-k498-poi.bks.MonoCost.json",
+      "sha256": "b0eb7eb968a6b89ad5a6e387f524e6fe624c25b4e787d4534a2b894906e345f2"
+    },
+    {
+      "path": "CVRP/euclidean/sofia/n=1500/mamut-sofia-n1500-k114-poi/mamut-sofia-n1500-k114-poi.bks.MonoCost.json",
+      "sha256": "ee2a2c1447506c33666d9b4061db898cffa8477a910957333c556994e1fc4a61"
+    },
+    {
+      "path": "CVRP/euclidean/sofia/n=977/mamut-sofia-n977-k111-poi/mamut-sofia-n977-k111-poi.bks.MonoCost.json",
+      "sha256": "56ddce1ceb517e43de83baeca71f59586637d0de9ab916edb7fdf0c7d7151545"
+    },
+    {
+      "path": "CVRP/euclidean/stockholm/n=705/mamut-stockholm-n705-k60-par/mamut-stockholm-n705-k60-par.bks.MonoCost.json",
+      "sha256": "932e5a1971e70d26b3a4f2c925c92cf68d75e7e0b848e1c26eb1927299e970d4"
+    },
+    {
+      "path": "CVRP/euclidean/strasbourg/n=811/mamut-strasbourg-n811-k163-hyb/mamut-strasbourg-n811-k163-hyb.bks.MonoCost.json",
+      "sha256": "1837e4e5c2226b2971865408dd2f275dce0baf49f515233ba133a16761f5f666"
+    },
+    {
+      "path": "CVRP/euclidean/sydney/n=118/mamut-sydney-n118-k9-poi/mamut-sydney-n118-k9-poi.bks.MonoCost.json",
+      "sha256": "bae65d21847da8b038b473a571b8fa32b774672311f98d2a99407ed3d64c5a6d"
+    },
+    {
+      "path": "CVRP/euclidean/tallinn/n=628/mamut-tallinn-n628-k106-hyb/mamut-tallinn-n628-k106-hyb.bks.MonoCost.json",
+      "sha256": "b65a666d9e5989ad814133ff8dbb0da82a9826932bc1ca21f316448eb89c588d"
+    },
+    {
+      "path": "CVRP/euclidean/toronto/n=100/mamut-toronto-n100-k8-par/mamut-toronto-n100-k8-par.bks.MonoCost.json",
+      "sha256": "50246098e5d540d733129defa5df9655f6d72516f8d3ac6d3561148c85174af6"
+    },
+    {
+      "path": "CVRP/euclidean/toulon/n=196/mamut-toulon-n196-k60-poi/mamut-toulon-n196-k60-poi.bks.MonoCost.json",
+      "sha256": "e63ddb5ace40798e58d1914819ea54566f7a86b85057a40b789a1ca39ba38f04"
+    },
+    {
+      "path": "CVRP/euclidean/toulouse/n=689/mamut-toulouse-n689-k129-poi/mamut-toulouse-n689-k129-poi.bks.MonoCost.json",
+      "sha256": "6c06c5dba8db02e7a6626c6afe951f7d2a4221ba5c8cb4947721185bfad98d38"
+    },
+    {
+      "path": "CVRP/euclidean/tours/n=509/mamut-tours-n509-k48-hyb/mamut-tours-n509-k48-hyb.bks.MonoCost.json",
+      "sha256": "b08c14a2927a8c05670ede073612c8ad92ece60c7ff561a985517fc794dbe072"
+    },
+    {
+      "path": "CVRP/euclidean/vannes/n=335/mamut-vannes-n335-k16-par/mamut-vannes-n335-k16-par.bks.MonoCost.json",
+      "sha256": "279775245335ed9122737d8dbf7353f42d2cbcab66efc299cdf53a79d5bf726f"
+    },
+    {
+      "path": "CVRP/euclidean/vienna/n=1200/mamut-vienna-n1200-k130-poi/mamut-vienna-n1200-k130-poi.bks.MonoCost.json",
+      "sha256": "f681dbfabe59e93f20af14f888f401cff16baff1ac1522c16a432e586b3748bf"
+    },
+    {
+      "path": "CVRP/euclidean/vienna/n=298/mamut-vienna-n298-k36-poi/mamut-vienna-n298-k36-poi.bks.MonoCost.json",
+      "sha256": "97b2e43ed197414cafba1601c7ed61908fbf3af6a857d73a8b226fa5decdbcad"
+    },
+    {
+      "path": "CVRP/euclidean/vilnius/n=351/mamut-vilnius-n351-k9-poi/mamut-vilnius-n351-k9-poi.bks.MonoCost.json",
+      "sha256": "a6b5641143d95b360697441ae6bbea66cca76a9d3a6d76f741b8bd478c20fda5"
+    },
+    {
+      "path": "CVRP/euclidean/warsaw/n=110/mamut-warsaw-n110-k8-poi/mamut-warsaw-n110-k8-poi.bks.MonoCost.json",
+      "sha256": "0d688c4004afbdfc51a2663ecb055a26f07dfa41930d836bbbb02499443f0442"
+    },
+    {
+      "path": "CVRP/euclidean/zurich/n=933/mamut-zurich-n933-k20-poi/mamut-zurich-n933-k20-poi.bks.MonoCost.json",
+      "sha256": "d51cd0d476b214d6d39a49120e9e42173851b64dd97319b9d69dfb0c7795b806"
+    },
+    {
+      "path": "CVRP/fastest/aix_en_provence/n=272/mamut-aix_en_provence-n272-k39-poi/mamut-aix_en_provence-n272-k39-poi.bks.MonoCost.json",
+      "sha256": "0115cb88d92d44e7694dc7b84eb26c7a6fa67ca483d2d26cee1c0c82cdc043fc"
+    },
+    {
+      "path": "CVRP/fastest/ajaccio/n=464/mamut-ajaccio-n464-k10-par/mamut-ajaccio-n464-k10-par.bks.MonoCost.json",
+      "sha256": "b60e88e3d83998ec6c11f7976ed2799e69b5f6f9412b14f02327c43ec3cb7b83"
+    },
+    {
+      "path": "CVRP/fastest/albi/n=368/mamut-albi-n368-k10-par/mamut-albi-n368-k10-par.bks.MonoCost.json",
+      "sha256": "33dac1033035a45988fd55b2c8628fb163b03016373ed79e65fafdc93103c749"
+    },
+    {
+      "path": "CVRP/fastest/amiens/n=156/mamut-amiens-n156-k7-poi/mamut-amiens-n156-k7-poi.bks.MonoCost.json",
+      "sha256": "dca97f75e61200c2e91402ef3f677a796cff167973c30b5b3be8050c975c89ac"
+    },
+    {
+      "path": "CVRP/fastest/amsterdam/n=722/mamut-amsterdam-n722-k69-hyb/mamut-amsterdam-n722-k69-hyb.bks.MonoCost.json",
+      "sha256": "35f038c343d01e9b53c13554584f3e3aab98c0752a40b56f2efe422e9b3c983f"
+    },
+    {
+      "path": "CVRP/fastest/angers/n=413/mamut-angers-n413-k95-hyb/mamut-angers-n413-k95-hyb.bks.MonoCost.json",
+      "sha256": "d45dd30f4f0d500f0b1b66617d07fcb268aacfb36c3bdf9737c074eef2ba9997"
+    },
+    {
+      "path": "CVRP/fastest/annecy/n=404/mamut-annecy-n404-k11-hyb/mamut-annecy-n404-k11-hyb.bks.MonoCost.json",
+      "sha256": "f8ba26073b9f920cdf35107b4b7497160abeaaadb96d47d67573cbb72e882e5a"
+    },
+    {
+      "path": "CVRP/fastest/arles/n=179/mamut-arles-n179-k11-par/mamut-arles-n179-k11-par.bks.MonoCost.json",
+      "sha256": "3c61d960971bea7a7485334527d60c169e523a0ba7904cb246e418f0297b81f8"
+    },
+    {
+      "path": "CVRP/fastest/athens/n=105/mamut-athens-n105-k7-poi/mamut-athens-n105-k7-poi.bks.MonoCost.json",
+      "sha256": "e44c58244b48d40794626daf545c26f15aea57b2347e67ff999506dd00a29304"
+    },
+    {
+      "path": "CVRP/fastest/auckland/n=1500/mamut-auckland-n1500-k12-poi/mamut-auckland-n1500-k12-poi.bks.MonoCost.json",
+      "sha256": "4f126645848b0debca4d28f64935bca3db559198a671c88049dcd5ce6092aab5"
+    },
+    {
+      "path": "CVRP/fastest/auckland/n=830/mamut-auckland-n830-k30-poi/mamut-auckland-n830-k30-poi.bks.MonoCost.json",
+      "sha256": "32ed2914f9264518c03a158d7796d756331b4ad8073b5e4b2367f6d76a23a281"
+    },
+    {
+      "path": "CVRP/fastest/bangkok/n=242/mamut-bangkok-n242-k49-hyb/mamut-bangkok-n242-k49-hyb.bks.MonoCost.json",
+      "sha256": "f29651bcf80c37155d3cb35240c0bf1a38353adefa6acb30cfda4e43b671e21c"
+    },
+    {
+      "path": "CVRP/fastest/barcelona/n=107/mamut-barcelona-n107-k8-poi/mamut-barcelona-n107-k8-poi.bks.MonoCost.json",
+      "sha256": "c5ae073072d47e88e5dc63c90b450559fe00a474fae4c0c058d2daca34d0ae9b"
+    },
+    {
+      "path": "CVRP/fastest/bastia/n=486/mamut-bastia-n486-k22-par/mamut-bastia-n486-k22-par.bks.MonoCost.json",
+      "sha256": "fb4d91337a039499a791daab9d73f7f4a4988d4458647a14c80d7e6c63c467ef"
+    },
+    {
+      "path": "CVRP/fastest/bayonne/n=292/mamut-bayonne-n292-k33-hyb/mamut-bayonne-n292-k33-hyb.bks.MonoCost.json",
+      "sha256": "be2768c2687f3daafa7196f42c7f06ba30acc876c79c5663e5673856dfc80e50"
+    },
+    {
+      "path": "CVRP/fastest/berlin/n=145/mamut-berlin-n145-k11-hyb/mamut-berlin-n145-k11-hyb.bks.MonoCost.json",
+      "sha256": "0eb3fd84be9abc3560dbdddd082af6c8d721b830acbab2263b57ce0768009a41"
+    },
+    {
+      "path": "CVRP/fastest/besancon/n=183/mamut-besancon-n183-k10-poi/mamut-besancon-n183-k10-poi.bks.MonoCost.json",
+      "sha256": "82e25c37aaf0e23137be65e860e46518469da81c47d27bbc378444ece7b85338"
+    },
+    {
+      "path": "CVRP/fastest/biarritz/n=226/mamut-biarritz-n226-k60-par/mamut-biarritz-n226-k60-par.bks.MonoCost.json",
+      "sha256": "2885e358c613143e0388405809dbea6836c8a7a236abe02c17d4380d542c35a8"
+    },
+    {
+      "path": "CVRP/fastest/bogota/n=120/mamut-bogota-n120-k9-poi/mamut-bogota-n120-k9-poi.bks.MonoCost.json",
+      "sha256": "76cae52218f0975efddd2ac5b4e111c2e360c967fec3a23be4c9add27b446e59"
+    },
+    {
+      "path": "CVRP/fastest/bogota/n=4000/mamut-bogota-n4000-k508-poi/mamut-bogota-n4000-k508-poi.bks.MonoCost.json",
+      "sha256": "5e1dc9e1c624f77f95a55ac2ecc76de6598416102b56b145e72f698347b61f0d"
+    },
+    {
+      "path": "CVRP/fastest/bordeaux/n=756/mamut-bordeaux-n756-k250-hyb/mamut-bordeaux-n756-k250-hyb.bks.MonoCost.json",
+      "sha256": "4ee5da81d339461c63da906587481857b457c115a9140452cf9d09deda697127"
+    },
+    {
+      "path": "CVRP/fastest/bourges/n=443/mamut-bourges-n443-k46-par/mamut-bourges-n443-k46-par.bks.MonoCost.json",
+      "sha256": "04b9c833f5c800725d9bbcd28643cb4e6b826e48fe633a5059abb2a5c6d808e7"
+    },
+    {
+      "path": "CVRP/fastest/brest/n=167/mamut-brest-n167-k10-par/mamut-brest-n167-k10-par.bks.MonoCost.json",
+      "sha256": "4be705b9449fef9b7ae5d8bf4671c381bb5b2763d1d553266475be5994adcdd4"
+    },
+    {
+      "path": "CVRP/fastest/brussels/n=343/mamut-brussels-n343-k46-poi/mamut-brussels-n343-k46-poi.bks.MonoCost.json",
+      "sha256": "6605a105e3b9c4f2cbecaeacb892c1cf6ef7205575078683268b433b25caa820"
+    },
+    {
+      "path": "CVRP/fastest/budapest/n=614/mamut-budapest-n614-k22-hyb/mamut-budapest-n614-k22-hyb.bks.MonoCost.json",
+      "sha256": "ca59a2bf6d0c8a5f44cb85411c6365c02057c9954198a5b68d486bad129ddca8"
+    },
+    {
+      "path": "CVRP/fastest/buenos_aires/n=215/mamut-buenos_aires-n215-k53-hyb/mamut-buenos_aires-n215-k53-hyb.bks.MonoCost.json",
+      "sha256": "cbb8f659d8ec9e498c7b346b3e3c9b9708241b31f26e1569789c13124f406e25"
+    },
+    {
+      "path": "CVRP/fastest/caen/n=192/mamut-caen-n192-k64-poi/mamut-caen-n192-k64-poi.bks.MonoCost.json",
+      "sha256": "e3666ccb9324f5f6cb2491e53e21e3133587d92b496c7853fba324223d766649"
+    },
+    {
+      "path": "CVRP/fastest/cairo/n=546/mamut-cairo-n546-k26-poi/mamut-cairo-n546-k26-poi.bks.MonoCost.json",
+      "sha256": "ac570f643e42bdbb1f7795bb530a643d412ebab802d23aa1640864933cfcc2b6"
+    },
+    {
+      "path": "CVRP/fastest/carcassonne/n=394/mamut-carcassonne-n394-k20-par/mamut-carcassonne-n394-k20-par.bks.MonoCost.json",
+      "sha256": "a83732523883fd12c0cb966b2010869a5171a5e5a1512e20b0a32a0968264c4b"
+    },
+    {
+      "path": "CVRP/fastest/casablanca/n=572/mamut-casablanca-n572-k191-poi/mamut-casablanca-n572-k191-poi.bks.MonoCost.json",
+      "sha256": "1714c8c3db222d9ec09fd8ac442d1db3951d594d2c69ad0149fe24664d74293e"
+    },
+    {
+      "path": "CVRP/fastest/chambery/n=236/mamut-chambery-n236-k48-par/mamut-chambery-n236-k48-par.bks.MonoCost.json",
+      "sha256": "e61c323a9cbc676ddfe05c555fdaefde097cf0989e2fd696b2c7428e22e5238d"
+    },
+    {
+      "path": "CVRP/fastest/chartres/n=475/mamut-chartres-n475-k53-par/mamut-chartres-n475-k53-par.bks.MonoCost.json",
+      "sha256": "814335d10b94c393ee31b128442ca6112086867b13783cfad92fa44153b967f9"
+    },
+    {
+      "path": "CVRP/fastest/chicago/n=285/mamut-chicago-n285-k91-poi/mamut-chicago-n285-k91-poi.bks.MonoCost.json",
+      "sha256": "cd06a5bd52f0ca8e9555dcedc7b909acdd805e4ce7ca25b7cc55c617b936d8a3"
+    },
+    {
+      "path": "CVRP/fastest/clermont_ferrand/n=129/mamut-clermont_ferrand-n129-k9-poi/mamut-clermont_ferrand-n129-k9-poi.bks.MonoCost.json",
+      "sha256": "85462912d0f25614f4fa6d93cdb401ebed428318e735a22ecd1d9fd96fe0b449"
+    },
+    {
+      "path": "CVRP/fastest/copenhagen/n=739/mamut-copenhagen-n739-k203-hyb/mamut-copenhagen-n739-k203-hyb.bks.MonoCost.json",
+      "sha256": "6688683d4531eca2d2146fc33705176c804a6cf6cf9a6cda8886dd9c5a2bf577"
+    },
+    {
+      "path": "CVRP/fastest/dakar/n=1500/mamut-dakar-n1500-k364-poi/mamut-dakar-n1500-k364-poi.bks.MonoCost.json",
+      "sha256": "8dc508b9a629d74a8189ca7ce00c1c013d3822873d3e76e94036829af97fe886"
+    },
+    {
+      "path": "CVRP/fastest/dakar/n=521/mamut-dakar-n521-k12-poi/mamut-dakar-n521-k12-poi.bks.MonoCost.json",
+      "sha256": "70c2ce0966cef61a515b5a2a6033a9fa3e88910a524709943a1ab46a6cff35ab"
+    },
+    {
+      "path": "CVRP/fastest/dijon/n=231/mamut-dijon-n231-k38-poi/mamut-dijon-n231-k38-poi.bks.MonoCost.json",
+      "sha256": "ca38e96dbdcc3b24c5cd4df9f6f86ac8fe8ce027f1043d887518fa86ece191e6"
+    },
+    {
+      "path": "CVRP/fastest/dublin/n=673/mamut-dublin-n673-k14-poi/mamut-dublin-n673-k14-poi.bks.MonoCost.json",
+      "sha256": "2c93e0cd5b855bd9b1f90504a6f9b32a7b7fa2d8bff1b77fa7a3d297d69854e7"
+    },
+    {
+      "path": "CVRP/fastest/grenoble/n=376/mamut-grenoble-n376-k34-poi/mamut-grenoble-n376-k34-poi.bks.MonoCost.json",
+      "sha256": "c0a8a68a4301a279aec2694bae309dca1af1cfe4c86cf92e44500f977bd0df75"
+    },
+    {
+      "path": "CVRP/fastest/hanoi/n=850/mamut-hanoi-n850-k101-par/mamut-hanoi-n850-k101-par.bks.MonoCost.json",
+      "sha256": "5190341a4cca6395c2e7f2a51a0c573c3f4c1d3d1bacf93d7b5392a8a54ef4ef"
+    },
+    {
+      "path": "CVRP/fastest/helsinki/n=658/mamut-helsinki-n658-k20-poi/mamut-helsinki-n658-k20-poi.bks.MonoCost.json",
+      "sha256": "af6aaaa4c110f7f4cb6db95efa4ce9d60ebc002b8dcc6f1321a550d009fac82d"
+    },
+    {
+      "path": "CVRP/fastest/hong_kong/n=955/mamut-hong_kong-n955-k207-par/mamut-hong_kong-n955-k207-par.bks.MonoCost.json",
+      "sha256": "108260ea839b643defd054c6a3aff97c50a44e962862f4ebdbda9ea389fbf4f3"
+    },
+    {
+      "path": "CVRP/fastest/johannesburg/n=911/mamut-johannesburg-n911-k83-par/mamut-johannesburg-n911-k83-par.bks.MonoCost.json",
+      "sha256": "28a825754c7cbaaba7d3fefbf32dc32c19cc4c50f16b2729a68836a9e941c442"
+    },
+    {
+      "path": "CVRP/fastest/kuala_lumpur/n=305/mamut-kuala_lumpur-n305-k42-poi/mamut-kuala_lumpur-n305-k42-poi.bks.MonoCost.json",
+      "sha256": "1f25b26c8b7784413d14148845f21058a9087613e613489eeb53245f0d282c43"
+    },
+    {
+      "path": "CVRP/fastest/lagos/n=210/mamut-lagos-n210-k66-poi/mamut-lagos-n210-k66-poi.bks.MonoCost.json",
+      "sha256": "cb028dcd69f7aec7fcc6d150871ebedf3c226e94e815e805b38f4cf35dc44b3e"
+    },
+    {
+      "path": "CVRP/fastest/le_havre/n=163/mamut-le_havre-n163-k7-par/mamut-le_havre-n163-k7-par.bks.MonoCost.json",
+      "sha256": "cefb22f41eba48c27823726bd9737b4132a0cab8e37ec2a6a950b4018a3350cb"
+    },
+    {
+      "path": "CVRP/fastest/le_mans/n=148/mamut-le_mans-n148-k16-poi/mamut-le_mans-n148-k16-poi.bks.MonoCost.json",
+      "sha256": "cc2a1b2c110919054b4e638d556eb27e42d2d9ff2194bd7c0deafeade44ad602"
+    },
+    {
+      "path": "CVRP/fastest/lille/n=559/mamut-lille-n559-k66-poi/mamut-lille-n559-k66-poi.bks.MonoCost.json",
+      "sha256": "089efd96e6bd7f5d03d480c3f03de97b8d61fb7c19e359d0d24163566479555e"
+    },
+    {
+      "path": "CVRP/fastest/limoges/n=152/mamut-limoges-n152-k7-poi/mamut-limoges-n152-k7-poi.bks.MonoCost.json",
+      "sha256": "d78c1829256bae3c5aaa137704b7a123c2b31aea9858cf2d957d786b8f7c4cda"
+    },
+    {
+      "path": "CVRP/fastest/lisbon/n=643/mamut-lisbon-n643-k29-hyb/mamut-lisbon-n643-k29-hyb.bks.MonoCost.json",
+      "sha256": "0d60e1c1c4c64833d64d452786ed3f8f2b2b2b3e56f2876653eba3f306511e45"
+    },
+    {
+      "path": "CVRP/fastest/london/n=115/mamut-london-n115-k9-hyb/mamut-london-n115-k9-hyb.bks.MonoCost.json",
+      "sha256": "3a7193b6f7ce9608ef056ef0d26c8cf39015c25bc3cf6a995e08df41cba8781f"
+    },
+    {
+      "path": "CVRP/fastest/lorient/n=453/mamut-lorient-n453-k114-par/mamut-lorient-n453-k114-par.bks.MonoCost.json",
+      "sha256": "4f383ce5e7ace5148bdf225ee1dcd515763f5dda0ac8443ec9ea117441a6de6c"
+    },
+    {
+      "path": "CVRP/fastest/los_angeles/n=159/mamut-los_angeles-n159-k9-hyb/mamut-los_angeles-n159-k9-hyb.bks.MonoCost.json",
+      "sha256": "982dbfa8185e7fd05854339709afb15fefe90fd1aae3824d49e2135adc1c2dac"
+    },
+    {
+      "path": "CVRP/fastest/luxembourg/n=206/mamut-luxembourg-n206-k65-poi/mamut-luxembourg-n206-k65-poi.bks.MonoCost.json",
+      "sha256": "a9d34262b78b8a518daec8676c7b811a4dc9b5648f18aa5fac4a5213c7d6050b"
+    },
+    {
+      "path": "CVRP/fastest/lyon/n=1000/mamut-lyon-n1000-k91-poi/mamut-lyon-n1000-k91-poi.bks.MonoCost.json",
+      "sha256": "fc0c2d436c15610ba1be8956455514cc95736f0e41a393c9daf23deb4820f79b"
+    },
+    {
+      "path": "CVRP/fastest/madrid/n=586/mamut-madrid-n586-k18-par/mamut-madrid-n586-k18-par.bks.MonoCost.json",
+      "sha256": "248a6d9830850efe145b8eea997e27014cf398c7e36dac899ae9355af8ba44f4"
+    },
+    {
+      "path": "CVRP/fastest/manila/n=221/mamut-manila-n221-k48-hyb/mamut-manila-n221-k48-hyb.bks.MonoCost.json",
+      "sha256": "15baddd8a05fa63d8f94dd1a25cd63ff9514e97d4f3876776121a629f3a50431"
+    },
+    {
+      "path": "CVRP/fastest/manila/n=2500/mamut-manila-n2500-k54-poi/mamut-manila-n2500-k54-poi.bks.MonoCost.json",
+      "sha256": "cd246dda1aac32f33ec26be81df18c728cf6c17decc1184161028b753d394349"
+    },
+    {
+      "path": "CVRP/fastest/marseille/n=774/mamut-marseille-n774-k17-poi/mamut-marseille-n774-k17-poi.bks.MonoCost.json",
+      "sha256": "c937fdf31cabc75115bcbb87bbc884c7c60974e4da85bcb01a241a46d951be7c"
+    },
+    {
+      "path": "CVRP/fastest/metz/n=135/mamut-metz-n135-k10-poi/mamut-metz-n135-k10-poi.bks.MonoCost.json",
+      "sha256": "e20e70e3e26c80db778cacf33ed2c536090183f078c378fa6982fb46c0c6e933"
+    },
+    {
+      "path": "CVRP/fastest/mexico_city/n=187/mamut-mexico_city-n187-k9-hyb/mamut-mexico_city-n187-k9-hyb.bks.MonoCost.json",
+      "sha256": "057b74346790cbc88722ad3ef5d66836b83a591fbcc816ec206d4ea76b76b2f6"
+    },
+    {
+      "path": "CVRP/fastest/montpellier/n=870/mamut-montpellier-n870-k105-hyb/mamut-montpellier-n870-k105-hyb.bks.MonoCost.json",
+      "sha256": "be1cee59a7d7107e57df9fa8bcfe9a1405dd69edc52f9a85ce3b63f3cec22d3c"
+    },
+    {
+      "path": "CVRP/fastest/montreal/n=112/mamut-montreal-n112-k9-par/mamut-montreal-n112-k9-par.bks.MonoCost.json",
+      "sha256": "6b2bd792f82d18862abe8f7401b025286934be61bb6a85195beffe3fa66d9a67"
+    },
+    {
+      "path": "CVRP/fastest/montreal/n=4000/mamut-montreal-n4000-k378-poi/mamut-montreal-n4000-k378-poi.bks.MonoCost.json",
+      "sha256": "1932fe598bc9cc098a6bec317ba814689533b6a0c283580edd089a6e04bfc2c6"
+    },
+    {
+      "path": "CVRP/fastest/mulhouse/n=254/mamut-mulhouse-n254-k42-par/mamut-mulhouse-n254-k42-par.bks.MonoCost.json",
+      "sha256": "5fdb2d2e0d4520cab521a1f5db30871fb066085c740627046c45234009abdeeb"
+    },
+    {
+      "path": "CVRP/fastest/mumbai/n=359/mamut-mumbai-n359-k44-poi/mamut-mumbai-n359-k44-poi.bks.MonoCost.json",
+      "sha256": "4efa6a6b0525fbb841106f1c8a86bf9536c7a1287c30f7f3029b930a1cf23fdd"
+    },
+    {
+      "path": "CVRP/fastest/nairobi/n=792/mamut-nairobi-n792-k18-par/mamut-nairobi-n792-k18-par.bks.MonoCost.json",
+      "sha256": "a4f46e5fcc5c35675d43ff9f13e5044e46e998fb9cb44a2a6897a6e30ceb8169"
+    },
+    {
+      "path": "CVRP/fastest/nancy/n=433/mamut-nancy-n433-k9-hyb/mamut-nancy-n433-k9-hyb.bks.MonoCost.json",
+      "sha256": "443613057032a46c7489fed063127c5ba5985a21ab8e459d105bcc7d90487096"
+    },
+    {
+      "path": "CVRP/fastest/nantes/n=498/mamut-nantes-n498-k11-poi/mamut-nantes-n498-k11-poi.bks.MonoCost.json",
+      "sha256": "b3dd6aa96e02a428296a2f856a4a8c65d70661a9171c23582ef95c46d1e8ec40"
+    },
+    {
+      "path": "CVRP/fastest/new_york/n=142/mamut-new_york-n142-k9-hyb/mamut-new_york-n142-k9-hyb.bks.MonoCost.json",
+      "sha256": "e082627fcc1d8205c54c518b36313738d0e5fd776ff083031a0e5c5fb1b7e0a6"
+    },
+    {
+      "path": "CVRP/fastest/nice/n=385/mamut-nice-n385-k12-poi/mamut-nice-n385-k12-poi.bks.MonoCost.json",
+      "sha256": "92ba4e66b9bf6ebfb6e465f738ee6c3bf39fe6d21131b2b065ae60f729ed7a0b"
+    },
+    {
+      "path": "CVRP/fastest/nimes/n=175/mamut-nimes-n175-k8-poi/mamut-nimes-n175-k8-poi.bks.MonoCost.json",
+      "sha256": "ee5188c91cd64480fffd0a700e4b8d202a68b60c050cfeb9d1f07e4c757c7a9b"
+    },
+    {
+      "path": "CVRP/fastest/orleans/n=201/mamut-orleans-n201-k62-poi/mamut-orleans-n201-k62-poi.bks.MonoCost.json",
+      "sha256": "0d81c027ef4882bf8d5b3fc8269266d98511d8204dac4256d8eb1ab5c0e0b232"
+    },
+    {
+      "path": "CVRP/fastest/oslo/n=534/mamut-oslo-n534-k27-poi/mamut-oslo-n534-k27-poi.bks.MonoCost.json",
+      "sha256": "c717e22ea59dd098ac74fc2a551e45c0cc130b5cfe6b69937b0e36ed78b8df44"
+    },
+    {
+      "path": "CVRP/fastest/paris/n=1500/mamut-paris-n1500-k107-poi/mamut-paris-n1500-k107-poi.bks.MonoCost.json",
+      "sha256": "19065250ad97b919fa3b5de7c2c4412cebfa653fdcebefed3e50f697247f1fa0"
+    },
+    {
+      "path": "CVRP/fastest/paris/n=171/mamut-paris-n171-k8-hyb/mamut-paris-n171-k8-hyb.bks.MonoCost.json",
+      "sha256": "fc6a08c666f144c432aab0f6c1818577e4d48990fd6fa12418a9a5206b69edd4"
+    },
+    {
+      "path": "CVRP/fastest/pau/n=327/mamut-pau-n327-k46-hyb/mamut-pau-n327-k46-hyb.bks.MonoCost.json",
+      "sha256": "a201858b85823ed454584beaa2d4d661e9a5a195d6d41b07895d7cc1ed73b737"
+    },
+    {
+      "path": "CVRP/fastest/perpignan/n=132/mamut-perpignan-n132-k9-poi/mamut-perpignan-n132-k9-poi.bks.MonoCost.json",
+      "sha256": "a52d08ace4a81d9d8bb5efba94a860d56acb1659fe256cdcff2b11fe9dcb63d5"
+    },
+    {
+      "path": "CVRP/fastest/prague/n=2000/mamut-prague-n2000-k13-poi/mamut-prague-n2000-k13-poi.bks.MonoCost.json",
+      "sha256": "ec54ee1d27c8142a02ff415bf4adb169023f0c240fc8679abf243703dfb5ccfb"
+    },
+    {
+      "path": "CVRP/fastest/prague/n=313/mamut-prague-n313-k11-poi/mamut-prague-n313-k11-poi.bks.MonoCost.json",
+      "sha256": "d409edf9b110d5e2e93c9ecc24e311dc35239861544fb48d327f00dd76fa8c4c"
+    },
+    {
+      "path": "CVRP/fastest/quimper/n=278/mamut-quimper-n278-k48-par/mamut-quimper-n278-k48-par.bks.MonoCost.json",
+      "sha256": "b9fcf00ea38ee9367707dd57a1a6a7be70bb910e7e6daad156307196a8b717f7"
+    },
+    {
+      "path": "CVRP/fastest/reims/n=320/mamut-reims-n320-k64-hyb/mamut-reims-n320-k64-hyb.bks.MonoCost.json",
+      "sha256": "31636d857579250c25df054b963b01c0258ed4e315e0013032b14960332f5c65"
+    },
+    {
+      "path": "CVRP/fastest/rennes/n=599/mamut-rennes-n599-k115-hyb/mamut-rennes-n599-k115-hyb.bks.MonoCost.json",
+      "sha256": "6bf1b3e8724a4cb5f4c80a62ef62dec18b7405795d5af947a8ea3455605f5092"
+    },
+    {
+      "path": "CVRP/fastest/reykjavik/n=138/mamut-reykjavik-n138-k10-poi/mamut-reykjavik-n138-k10-poi.bks.MonoCost.json",
+      "sha256": "7bb0f4293588aa1bc054fc04caf1518a697cef05043a86b05b2dbe951b3a1fca"
+    },
+    {
+      "path": "CVRP/fastest/riga/n=423/mamut-riga-n423-k105-poi/mamut-riga-n423-k105-poi.bks.MonoCost.json",
+      "sha256": "4be06646a22505478c7a65deb98e534f8dfd01e7e0ec93d02eb84e52e041baa5"
+    },
+    {
+      "path": "CVRP/fastest/rome/n=102/mamut-rome-n102-k9-poi/mamut-rome-n102-k9-poi.bks.MonoCost.json",
+      "sha256": "4e83f4e79d0711ec007a237219b5f0208f184e140419a1bab72bb66915168f53"
+    },
+    {
+      "path": "CVRP/fastest/rouen/n=266/mamut-rouen-n266-k36-poi/mamut-rouen-n266-k36-poi.bks.MonoCost.json",
+      "sha256": "38fbd3daab7837c563ff7e0c5f6f2d17c589af4a59b51bb7f7ebabc2cf4c446e"
+    },
+    {
+      "path": "CVRP/fastest/saint_etienne/n=248/mamut-saint_etienne-n248-k43-poi/mamut-saint_etienne-n248-k43-poi.bks.MonoCost.json",
+      "sha256": "c9631e4c5455eb5efbbb8a8f5a30b87a8377d48781c405b63a2881307b8bd536"
+    },
+    {
+      "path": "CVRP/fastest/saint_malo/n=260/mamut-saint_malo-n260-k35-par/mamut-saint_malo-n260-k35-par.bks.MonoCost.json",
+      "sha256": "b952e56d2c5fd147be507fd0cbd8bda58605faf29cc701bb20266c4bca9a1a93"
+    },
+    {
+      "path": "CVRP/fastest/san_francisco/n=890/mamut-san_francisco-n890-k83-par/mamut-san_francisco-n890-k83-par.bks.MonoCost.json",
+      "sha256": "3f51a7f8063b11b17ab4a5cccc513c9324b088070e2eece9b92c58b3ab99862b"
+    },
+    {
+      "path": "CVRP/fastest/sao_paulo/n=123/mamut-sao_paulo-n123-k9-poi/mamut-sao_paulo-n123-k9-poi.bks.MonoCost.json",
+      "sha256": "e169ae11974990649f27e3ca9dece1ab4b2fe072c5136f36ba146dfc4f03f747"
+    },
+    {
+      "path": "CVRP/fastest/singapore/n=126/mamut-singapore-n126-k10-poi/mamut-singapore-n126-k10-poi.bks.MonoCost.json",
+      "sha256": "a00cbc61cbce938c082a7c4e3d993f6f5f9ca13adbdf0170abfee5cd857fef39"
+    },
+    {
+      "path": "CVRP/fastest/singapore/n=4000/mamut-singapore-n4000-k498-poi/mamut-singapore-n4000-k498-poi.bks.MonoCost.json",
+      "sha256": "c97496c405d47da0c2d079ed3fcee432a6862d77e2f022aa2455234c29bdd371"
+    },
+    {
+      "path": "CVRP/fastest/sofia/n=1500/mamut-sofia-n1500-k114-poi/mamut-sofia-n1500-k114-poi.bks.MonoCost.json",
+      "sha256": "a4f40bc21dfca1a98f454050dd5ab4f86abe4f5207ddc3477c12df6bf3690911"
+    },
+    {
+      "path": "CVRP/fastest/sofia/n=977/mamut-sofia-n977-k111-poi/mamut-sofia-n977-k111-poi.bks.MonoCost.json",
+      "sha256": "089c011052e22569da3e4bc16e3879e203f6c652fc7a6202dd0bc3989612ce88"
+    },
+    {
+      "path": "CVRP/fastest/stockholm/n=705/mamut-stockholm-n705-k60-par/mamut-stockholm-n705-k60-par.bks.MonoCost.json",
+      "sha256": "9501a4b703ccaf4104b1ce43c56a49192a975700889d702563ae1c49b4ef83bf"
+    },
+    {
+      "path": "CVRP/fastest/strasbourg/n=811/mamut-strasbourg-n811-k163-hyb/mamut-strasbourg-n811-k163-hyb.bks.MonoCost.json",
+      "sha256": "fed3fc7a65d2d70c45e5ef23394e8c9a9a78ddafe8cedefa83f25a28f4e1eaac"
+    },
+    {
+      "path": "CVRP/fastest/sydney/n=118/mamut-sydney-n118-k9-poi/mamut-sydney-n118-k9-poi.bks.MonoCost.json",
+      "sha256": "e12c30650b3a0b1d79709c43c1fb5cbbbfec58e7e15a749eed87bc0acf99b493"
+    },
+    {
+      "path": "CVRP/fastest/tallinn/n=628/mamut-tallinn-n628-k106-hyb/mamut-tallinn-n628-k106-hyb.bks.MonoCost.json",
+      "sha256": "e25b90dbf00152b77253e9423830c460a327cbbcdfeb35adad71f7e868e6a473"
+    },
+    {
+      "path": "CVRP/fastest/toronto/n=100/mamut-toronto-n100-k8-par/mamut-toronto-n100-k8-par.bks.MonoCost.json",
+      "sha256": "80c9f97c0ca7c61b96bf607d90cd9a372f7ae22b94e3039fdce4caca8a4f79c6"
+    },
+    {
+      "path": "CVRP/fastest/toulon/n=196/mamut-toulon-n196-k60-poi/mamut-toulon-n196-k60-poi.bks.MonoCost.json",
+      "sha256": "6cd18f6f8a4a4f58844ea73089d11507e411b050ac61bae5d3fdcab01e532c60"
+    },
+    {
+      "path": "CVRP/fastest/toulouse/n=689/mamut-toulouse-n689-k129-poi/mamut-toulouse-n689-k129-poi.bks.MonoCost.json",
+      "sha256": "1cf16d9139672e13c5531476da1d2f557e08ab3cb56ce0b0197d0123121148fb"
+    },
+    {
+      "path": "CVRP/fastest/tours/n=509/mamut-tours-n509-k48-hyb/mamut-tours-n509-k48-hyb.bks.MonoCost.json",
+      "sha256": "2495d9f1f8bc93e47fd7a155210227c724390000319fa3416095b78bbc2b3615"
+    },
+    {
+      "path": "CVRP/fastest/vannes/n=335/mamut-vannes-n335-k16-par/mamut-vannes-n335-k16-par.bks.MonoCost.json",
+      "sha256": "266f45045053ad30145c078e0e96355aef8e71577a48e596be72c656c9c288c7"
+    },
+    {
+      "path": "CVRP/fastest/vienna/n=1200/mamut-vienna-n1200-k130-poi/mamut-vienna-n1200-k130-poi.bks.MonoCost.json",
+      "sha256": "540005df2df0795a5c52327dd13fe3720a78a291bd2cf05bbd50d06e90d9cb37"
+    },
+    {
+      "path": "CVRP/fastest/vienna/n=298/mamut-vienna-n298-k36-poi/mamut-vienna-n298-k36-poi.bks.MonoCost.json",
+      "sha256": "1ae9594bc86d498c8da0ea9189ee18b44652d3a945e3558f68c70ced6c389565"
+    },
+    {
+      "path": "CVRP/fastest/vilnius/n=351/mamut-vilnius-n351-k9-poi/mamut-vilnius-n351-k9-poi.bks.MonoCost.json",
+      "sha256": "012d87c5091712eeea1e20d830cec2ea5aeadbdd974423b1be44ceb4c85f664b"
+    },
+    {
+      "path": "CVRP/fastest/warsaw/n=110/mamut-warsaw-n110-k8-poi/mamut-warsaw-n110-k8-poi.bks.MonoCost.json",
+      "sha256": "4871f9c5977c7723bc392403120b624973c860b94726d9935c96af08d494aea1"
+    },
+    {
+      "path": "CVRP/fastest/zurich/n=933/mamut-zurich-n933-k20-poi/mamut-zurich-n933-k20-poi.bks.MonoCost.json",
+      "sha256": "c2010327e9adfb78070a04dca16c20bd9d62fe20ae64f3eca9f43fcbbbb1419d"
+    },
+    {
+      "path": "CVRP/shortest/aix_en_provence/n=272/mamut-aix_en_provence-n272-k39-poi/mamut-aix_en_provence-n272-k39-poi.bks.MonoCost.json",
+      "sha256": "1faa7fe5c844383fbe9f015a23677b0fca2fe24c10cc24565a2697e52271801b"
+    },
+    {
+      "path": "CVRP/shortest/ajaccio/n=464/mamut-ajaccio-n464-k10-par/mamut-ajaccio-n464-k10-par.bks.MonoCost.json",
+      "sha256": "06bc81c0d11b8d6d8e2a81918bb6bbe1f75870249788b58b8630297b2c758504"
+    },
+    {
+      "path": "CVRP/shortest/albi/n=368/mamut-albi-n368-k10-par/mamut-albi-n368-k10-par.bks.MonoCost.json",
+      "sha256": "22f2370fd857c59f3d1d1796562b0f10a5264a3092e3b10f711ea7b4eca94e41"
+    },
+    {
+      "path": "CVRP/shortest/amiens/n=156/mamut-amiens-n156-k7-poi/mamut-amiens-n156-k7-poi.bks.MonoCost.json",
+      "sha256": "e96b223058356107a4dce04d9f502ccbee58fd1dfd60dd40b1d35cfcb130597c"
+    },
+    {
+      "path": "CVRP/shortest/amsterdam/n=722/mamut-amsterdam-n722-k69-hyb/mamut-amsterdam-n722-k69-hyb.bks.MonoCost.json",
+      "sha256": "b71163371444bfc5ff7f3fe4fe3fc3d35c4b07335485f8a66a71b43f2dec33d9"
+    },
+    {
+      "path": "CVRP/shortest/angers/n=413/mamut-angers-n413-k95-hyb/mamut-angers-n413-k95-hyb.bks.MonoCost.json",
+      "sha256": "782171a9e87e979c006b8a243d9f24bc62f117291f08e6f31647e604d96c2783"
+    },
+    {
+      "path": "CVRP/shortest/annecy/n=404/mamut-annecy-n404-k11-hyb/mamut-annecy-n404-k11-hyb.bks.MonoCost.json",
+      "sha256": "5816c1c997222636d468530683a3950e796bfe3fec16b0f183baf57a0f24ca22"
+    },
+    {
+      "path": "CVRP/shortest/arles/n=179/mamut-arles-n179-k11-par/mamut-arles-n179-k11-par.bks.MonoCost.json",
+      "sha256": "b85210d6281072171a935abfd034df881ea47640f2bae92962ce488e2b8000e4"
+    },
+    {
+      "path": "CVRP/shortest/athens/n=105/mamut-athens-n105-k7-poi/mamut-athens-n105-k7-poi.bks.MonoCost.json",
+      "sha256": "43f0bd03a99ab610b51f149fbdfbdbb98a57c91bc9b2ebb53a871a5659b59bde"
+    },
+    {
+      "path": "CVRP/shortest/auckland/n=1500/mamut-auckland-n1500-k12-poi/mamut-auckland-n1500-k12-poi.bks.MonoCost.json",
+      "sha256": "8de2532ce65cfc9ea957698653802dbb3c25f9b15b692b2580888da2cd4669a6"
+    },
+    {
+      "path": "CVRP/shortest/auckland/n=830/mamut-auckland-n830-k30-poi/mamut-auckland-n830-k30-poi.bks.MonoCost.json",
+      "sha256": "9480e9844f8376d905f572ab74a1209d12133821fac9ecad50ccaaf469491152"
+    },
+    {
+      "path": "CVRP/shortest/bangkok/n=242/mamut-bangkok-n242-k49-hyb/mamut-bangkok-n242-k49-hyb.bks.MonoCost.json",
+      "sha256": "6c92397b65d39b1fe6194402abb6a5790b0bd6217eb9856c565f740f84af2d49"
+    },
+    {
+      "path": "CVRP/shortest/barcelona/n=107/mamut-barcelona-n107-k8-poi/mamut-barcelona-n107-k8-poi.bks.MonoCost.json",
+      "sha256": "75b0143d6cd56c2e25f74fbd5cba6576b098dceefd1b7aa9c603bf31ce231cd1"
+    },
+    {
+      "path": "CVRP/shortest/bastia/n=486/mamut-bastia-n486-k22-par/mamut-bastia-n486-k22-par.bks.MonoCost.json",
+      "sha256": "ba96803f65367e255478720fb453f95a8d2baffa77595ec7b0d7037c66d1964c"
+    },
+    {
+      "path": "CVRP/shortest/bayonne/n=292/mamut-bayonne-n292-k33-hyb/mamut-bayonne-n292-k33-hyb.bks.MonoCost.json",
+      "sha256": "2a8699efc48a1c9d1ef3752c59c86486d9a8c1bd50f194067b95f084ddb8612b"
+    },
+    {
+      "path": "CVRP/shortest/berlin/n=145/mamut-berlin-n145-k11-hyb/mamut-berlin-n145-k11-hyb.bks.MonoCost.json",
+      "sha256": "64116e567faeb6265bc14a96d5862a46effe44d25dc58509d9530e733bdd0947"
+    },
+    {
+      "path": "CVRP/shortest/besancon/n=183/mamut-besancon-n183-k10-poi/mamut-besancon-n183-k10-poi.bks.MonoCost.json",
+      "sha256": "5c8f506c1217244bc9ed503de9b82d1c198f3813c8516b52aa487d50ff97c5a1"
+    },
+    {
+      "path": "CVRP/shortest/biarritz/n=226/mamut-biarritz-n226-k60-par/mamut-biarritz-n226-k60-par.bks.MonoCost.json",
+      "sha256": "509758fb6b5d0c057a9060bd34d8a334140401e04cdfb1c7d8beb8f974ec2f20"
+    },
+    {
+      "path": "CVRP/shortest/bogota/n=120/mamut-bogota-n120-k9-poi/mamut-bogota-n120-k9-poi.bks.MonoCost.json",
+      "sha256": "86d277208f2bcf3b8d3bd1a6e39fcb22e56837db43d6849209da09a18e095a95"
+    },
+    {
+      "path": "CVRP/shortest/bogota/n=4000/mamut-bogota-n4000-k508-poi/mamut-bogota-n4000-k508-poi.bks.MonoCost.json",
+      "sha256": "673fa3d1338640a38bcf4d62c06f0db691afc3a6c86537900d65217972a11631"
+    },
+    {
+      "path": "CVRP/shortest/bordeaux/n=756/mamut-bordeaux-n756-k250-hyb/mamut-bordeaux-n756-k250-hyb.bks.MonoCost.json",
+      "sha256": "85c7c0aa718e74a0fd6b1fabe150ada2d41127c2c9ec6800b50a0828e7ae7641"
+    },
+    {
+      "path": "CVRP/shortest/bourges/n=443/mamut-bourges-n443-k46-par/mamut-bourges-n443-k46-par.bks.MonoCost.json",
+      "sha256": "abc3697e9174bdb6727bd9a331375a43d76251684437613fb41035f6b09fa70f"
+    },
+    {
+      "path": "CVRP/shortest/brest/n=167/mamut-brest-n167-k10-par/mamut-brest-n167-k10-par.bks.MonoCost.json",
+      "sha256": "c0bfa23c9b26a2f0663fff0d4509c195e98fed42e0dd299b5072301c213781a5"
+    },
+    {
+      "path": "CVRP/shortest/brussels/n=343/mamut-brussels-n343-k46-poi/mamut-brussels-n343-k46-poi.bks.MonoCost.json",
+      "sha256": "bcaacadbbe3cd8752d29f4761b89dc040ff448bf5a0c133a3f990b7db415a191"
+    },
+    {
+      "path": "CVRP/shortest/budapest/n=614/mamut-budapest-n614-k22-hyb/mamut-budapest-n614-k22-hyb.bks.MonoCost.json",
+      "sha256": "cb118985574aab36fa6b8e7478beae773aef7dc1fdbd536b581d0601901f444a"
+    },
+    {
+      "path": "CVRP/shortest/buenos_aires/n=215/mamut-buenos_aires-n215-k53-hyb/mamut-buenos_aires-n215-k53-hyb.bks.MonoCost.json",
+      "sha256": "0b514023f76ca4382d9c39f03a0a8c4ce08706c9d202f77b54805170615896a3"
+    },
+    {
+      "path": "CVRP/shortest/caen/n=192/mamut-caen-n192-k64-poi/mamut-caen-n192-k64-poi.bks.MonoCost.json",
+      "sha256": "b24fb44fd3d88e03dc568860817dce13eb28b989005c383ae6618ec981107246"
+    },
+    {
+      "path": "CVRP/shortest/cairo/n=546/mamut-cairo-n546-k26-poi/mamut-cairo-n546-k26-poi.bks.MonoCost.json",
+      "sha256": "bc82bd6f4cbda42153c39d0a24391a8bf717d546204ea94f6de83f765c17559d"
+    },
+    {
+      "path": "CVRP/shortest/carcassonne/n=394/mamut-carcassonne-n394-k20-par/mamut-carcassonne-n394-k20-par.bks.MonoCost.json",
+      "sha256": "8e664370d972760ca53005e2f48ca18e5f0823bb083a80085cbbabe7a1664c51"
+    },
+    {
+      "path": "CVRP/shortest/casablanca/n=572/mamut-casablanca-n572-k191-poi/mamut-casablanca-n572-k191-poi.bks.MonoCost.json",
+      "sha256": "d1251368b5463035a20e77a0e69d7c90b897a94c276a9365de23808730e05bfb"
+    },
+    {
+      "path": "CVRP/shortest/chambery/n=236/mamut-chambery-n236-k48-par/mamut-chambery-n236-k48-par.bks.MonoCost.json",
+      "sha256": "54c32d0a4193e2cca15a38a129c4c6d558d033bf0eb3b11f920c22d4ab57c583"
+    },
+    {
+      "path": "CVRP/shortest/chartres/n=475/mamut-chartres-n475-k53-par/mamut-chartres-n475-k53-par.bks.MonoCost.json",
+      "sha256": "22647654e4e08e4b269765e3e3cef9813694d91e3dc66faa2e112d4995b55953"
+    },
+    {
+      "path": "CVRP/shortest/chicago/n=285/mamut-chicago-n285-k91-poi/mamut-chicago-n285-k91-poi.bks.MonoCost.json",
+      "sha256": "16381229a95e50911eaf858ccec88811882295c2889f2d8acf60de23d54d3e0a"
+    },
+    {
+      "path": "CVRP/shortest/clermont_ferrand/n=129/mamut-clermont_ferrand-n129-k9-poi/mamut-clermont_ferrand-n129-k9-poi.bks.MonoCost.json",
+      "sha256": "56845162cf331cd95771ca7d564388794a4ab48723b58182a941c3f9e5ab7c46"
+    },
+    {
+      "path": "CVRP/shortest/copenhagen/n=739/mamut-copenhagen-n739-k203-hyb/mamut-copenhagen-n739-k203-hyb.bks.MonoCost.json",
+      "sha256": "1c52b464df817f2ed7407b0770c9daf2cddf003efd22af29ec33c978c80af5f9"
+    },
+    {
+      "path": "CVRP/shortest/dakar/n=1500/mamut-dakar-n1500-k364-poi/mamut-dakar-n1500-k364-poi.bks.MonoCost.json",
+      "sha256": "344e1b6412277df75f7de3d261ab48a31e66b9d7cc89184a6c08541c3e0820e5"
+    },
+    {
+      "path": "CVRP/shortest/dakar/n=521/mamut-dakar-n521-k12-poi/mamut-dakar-n521-k12-poi.bks.MonoCost.json",
+      "sha256": "edd923c8735de9450beacd3aa13e691ce4a89ae9e1096636482bc4d8b3d44e29"
+    },
+    {
+      "path": "CVRP/shortest/dijon/n=231/mamut-dijon-n231-k38-poi/mamut-dijon-n231-k38-poi.bks.MonoCost.json",
+      "sha256": "6789ba5c71ecc9b032ca2d1d6bdb493ed5bf9903befc171159cc625a0fea621e"
+    },
+    {
+      "path": "CVRP/shortest/dublin/n=673/mamut-dublin-n673-k14-poi/mamut-dublin-n673-k14-poi.bks.MonoCost.json",
+      "sha256": "2c51e5161693960467879dc7b616818f7e069e1cc157e436e8707b55d311978c"
+    },
+    {
+      "path": "CVRP/shortest/grenoble/n=376/mamut-grenoble-n376-k34-poi/mamut-grenoble-n376-k34-poi.bks.MonoCost.json",
+      "sha256": "390a939ed1b724f076685fe8bf9ce520a1923cd45ecd35e6e866f09680e22ca3"
+    },
+    {
+      "path": "CVRP/shortest/hanoi/n=850/mamut-hanoi-n850-k101-par/mamut-hanoi-n850-k101-par.bks.MonoCost.json",
+      "sha256": "5e3f6ab3000d82c4a6d3acc7f81389ce0c00c8287643c73de39a594d70ff41f6"
+    },
+    {
+      "path": "CVRP/shortest/helsinki/n=658/mamut-helsinki-n658-k20-poi/mamut-helsinki-n658-k20-poi.bks.MonoCost.json",
+      "sha256": "b2cdb7d94f061dbffaaf6f2a6079bcdc8b7145dfe24ff0d5220baa54e0156ec3"
+    },
+    {
+      "path": "CVRP/shortest/hong_kong/n=955/mamut-hong_kong-n955-k207-par/mamut-hong_kong-n955-k207-par.bks.MonoCost.json",
+      "sha256": "188d0fca5605111824550cebc6c0f376a413e7419e5c3bd07b11a7ecb31bd2f5"
+    },
+    {
+      "path": "CVRP/shortest/johannesburg/n=911/mamut-johannesburg-n911-k83-par/mamut-johannesburg-n911-k83-par.bks.MonoCost.json",
+      "sha256": "2c70d1a2c3721bad0b9f0c407f57d3ba439a989b4dcc94ee8b632c7d1fed5126"
+    },
+    {
+      "path": "CVRP/shortest/kuala_lumpur/n=305/mamut-kuala_lumpur-n305-k42-poi/mamut-kuala_lumpur-n305-k42-poi.bks.MonoCost.json",
+      "sha256": "99a9bb1560ee03d469d170a8b89ddcb635b6a1cb833bbacdbe99550ceb73b554"
+    },
+    {
+      "path": "CVRP/shortest/lagos/n=210/mamut-lagos-n210-k66-poi/mamut-lagos-n210-k66-poi.bks.MonoCost.json",
+      "sha256": "6860f1a0968c21d4c4ee56e64ede5ad3467ca5080638f3f7e6b4d783ddf12cfd"
+    },
+    {
+      "path": "CVRP/shortest/le_havre/n=163/mamut-le_havre-n163-k7-par/mamut-le_havre-n163-k7-par.bks.MonoCost.json",
+      "sha256": "7dddb2ab18ed8cfcedcd99dd721c0df8336b73f1203cc05891cd79c72f20c4da"
+    },
+    {
+      "path": "CVRP/shortest/le_mans/n=148/mamut-le_mans-n148-k16-poi/mamut-le_mans-n148-k16-poi.bks.MonoCost.json",
+      "sha256": "39d23a7a127b0f6569aff8e7a27a3770ee536ff9d9bd682b1eb7b017e120e612"
+    },
+    {
+      "path": "CVRP/shortest/lille/n=559/mamut-lille-n559-k66-poi/mamut-lille-n559-k66-poi.bks.MonoCost.json",
+      "sha256": "ba2927a4f9972681cb719b3bda5b9fffd2828aa60f1302c906c1188499ed04f0"
+    },
+    {
+      "path": "CVRP/shortest/limoges/n=152/mamut-limoges-n152-k7-poi/mamut-limoges-n152-k7-poi.bks.MonoCost.json",
+      "sha256": "260e4c6ecb32ce1782a5cc02335d8a602444c89c2314396ab2c8ee7021e4ba77"
+    },
+    {
+      "path": "CVRP/shortest/lisbon/n=643/mamut-lisbon-n643-k29-hyb/mamut-lisbon-n643-k29-hyb.bks.MonoCost.json",
+      "sha256": "2816efdc2d1369fa5c0c8e7626a6a1fd901262e0dd5eb84bca71ecd1b0da787f"
+    },
+    {
+      "path": "CVRP/shortest/london/n=115/mamut-london-n115-k9-hyb/mamut-london-n115-k9-hyb.bks.MonoCost.json",
+      "sha256": "fd3b8c396618a52d2da87691fccdbc863cf319f317359209d4045cd1f023cdc8"
+    },
+    {
+      "path": "CVRP/shortest/lorient/n=453/mamut-lorient-n453-k114-par/mamut-lorient-n453-k114-par.bks.MonoCost.json",
+      "sha256": "82416c47e868fcec277d11b9a1e58f75e4444d230949a72cf14ebc8022622da6"
+    },
+    {
+      "path": "CVRP/shortest/los_angeles/n=159/mamut-los_angeles-n159-k9-hyb/mamut-los_angeles-n159-k9-hyb.bks.MonoCost.json",
+      "sha256": "753fe16feb284e5a96ffdb9d4588b2fbaf75c20170bb26938f3357600c1320c6"
+    },
+    {
+      "path": "CVRP/shortest/luxembourg/n=206/mamut-luxembourg-n206-k65-poi/mamut-luxembourg-n206-k65-poi.bks.MonoCost.json",
+      "sha256": "2e913ac4fceea02f048b57d871efd958f1c247f49b4d4d4f1b93cd611de089bc"
+    },
+    {
+      "path": "CVRP/shortest/lyon/n=1000/mamut-lyon-n1000-k91-poi/mamut-lyon-n1000-k91-poi.bks.MonoCost.json",
+      "sha256": "50a5d4afb9dd38c558f09dcd964a6c788b0a9bae8dea5af7fea8c825ea98d3c9"
+    },
+    {
+      "path": "CVRP/shortest/madrid/n=586/mamut-madrid-n586-k18-par/mamut-madrid-n586-k18-par.bks.MonoCost.json",
+      "sha256": "7e3654d3ff8b0bbdce0e20f615b4e2751e221c6f6f122a00183aec7ceafe4626"
+    },
+    {
+      "path": "CVRP/shortest/manila/n=221/mamut-manila-n221-k48-hyb/mamut-manila-n221-k48-hyb.bks.MonoCost.json",
+      "sha256": "abb67427f38632f49e60813ce3735d4806dcb8a49d7565dbce126e902c52d3bf"
+    },
+    {
+      "path": "CVRP/shortest/manila/n=2500/mamut-manila-n2500-k54-poi/mamut-manila-n2500-k54-poi.bks.MonoCost.json",
+      "sha256": "b377a0575df33b883832b0d1a1a138b36b431365bbf35524f67a5fd7736ea603"
+    },
+    {
+      "path": "CVRP/shortest/marseille/n=774/mamut-marseille-n774-k17-poi/mamut-marseille-n774-k17-poi.bks.MonoCost.json",
+      "sha256": "ca3aa184680f57f45949750c5eff8bf1153d891de3f251793a1508a1bd6aa824"
+    },
+    {
+      "path": "CVRP/shortest/metz/n=135/mamut-metz-n135-k10-poi/mamut-metz-n135-k10-poi.bks.MonoCost.json",
+      "sha256": "45877b4c98c14ee10c53270504dd62d5dabe77fc9a1ddac830d51e85e4684c85"
+    },
+    {
+      "path": "CVRP/shortest/mexico_city/n=187/mamut-mexico_city-n187-k9-hyb/mamut-mexico_city-n187-k9-hyb.bks.MonoCost.json",
+      "sha256": "5f14dfb0d5cfb82d9d8092c3dba24283fcdaf8af809cf661a70a1766f7f5f656"
+    },
+    {
+      "path": "CVRP/shortest/montpellier/n=870/mamut-montpellier-n870-k105-hyb/mamut-montpellier-n870-k105-hyb.bks.MonoCost.json",
+      "sha256": "1e919eb94d6acde9603b29bcf421fcf21e5203462bc045b92bf8fa7119a5403f"
+    },
+    {
+      "path": "CVRP/shortest/montreal/n=112/mamut-montreal-n112-k9-par/mamut-montreal-n112-k9-par.bks.MonoCost.json",
+      "sha256": "9aa43c20463100d06a2c27529e4c1054c47d66fa4dae1f817864165b37dc0554"
+    },
+    {
+      "path": "CVRP/shortest/montreal/n=4000/mamut-montreal-n4000-k378-poi/mamut-montreal-n4000-k378-poi.bks.MonoCost.json",
+      "sha256": "b81e6e1a1038dad7e3f94860716526d5149206d88f883a0a970c1280632a6eb4"
+    },
+    {
+      "path": "CVRP/shortest/mulhouse/n=254/mamut-mulhouse-n254-k42-par/mamut-mulhouse-n254-k42-par.bks.MonoCost.json",
+      "sha256": "84bf5f2c10fa33c6171b61eef3580fca2e122e662ad76a34132040fb1a84c675"
+    },
+    {
+      "path": "CVRP/shortest/mumbai/n=359/mamut-mumbai-n359-k44-poi/mamut-mumbai-n359-k44-poi.bks.MonoCost.json",
+      "sha256": "9390b455f8d61cda173c1bf868d32010293312c69955cc77f76f805b4c35a6b8"
+    },
+    {
+      "path": "CVRP/shortest/nairobi/n=792/mamut-nairobi-n792-k18-par/mamut-nairobi-n792-k18-par.bks.MonoCost.json",
+      "sha256": "51213f194546b4918aadf85a1e6f8f4cba1af51031d8f13dc4598d5e15c1fae2"
+    },
+    {
+      "path": "CVRP/shortest/nancy/n=433/mamut-nancy-n433-k9-hyb/mamut-nancy-n433-k9-hyb.bks.MonoCost.json",
+      "sha256": "a536415080e898dd27ff1cbd4ff90023e11ce1dfb78ca1de742dcbf86cdbc79c"
+    },
+    {
+      "path": "CVRP/shortest/nantes/n=498/mamut-nantes-n498-k11-poi/mamut-nantes-n498-k11-poi.bks.MonoCost.json",
+      "sha256": "cbdfaa20fe982132db6d04b2719e91eb697af4d3a8bdd0f46fc96c4932f5b6f9"
+    },
+    {
+      "path": "CVRP/shortest/new_york/n=142/mamut-new_york-n142-k9-hyb/mamut-new_york-n142-k9-hyb.bks.MonoCost.json",
+      "sha256": "a70f0835bb6d4cac6fed361da772042bb7850ffe291dd7ffcb25714abe11d7ce"
+    },
+    {
+      "path": "CVRP/shortest/nice/n=385/mamut-nice-n385-k12-poi/mamut-nice-n385-k12-poi.bks.MonoCost.json",
+      "sha256": "82c32d0ab2d1901320278f9519dd2aa975ec7322dea9cdee65086713ac2a69a8"
+    },
+    {
+      "path": "CVRP/shortest/nimes/n=175/mamut-nimes-n175-k8-poi/mamut-nimes-n175-k8-poi.bks.MonoCost.json",
+      "sha256": "262782b71d407e7f9d2c280689f7bc164cf9e4527b33fb4883265d4a82975615"
+    },
+    {
+      "path": "CVRP/shortest/orleans/n=201/mamut-orleans-n201-k62-poi/mamut-orleans-n201-k62-poi.bks.MonoCost.json",
+      "sha256": "cf2dabc60625c47fe7c2fe8e95962b162e758c2021ab24bbc6e783cc2379bffb"
+    },
+    {
+      "path": "CVRP/shortest/oslo/n=534/mamut-oslo-n534-k27-poi/mamut-oslo-n534-k27-poi.bks.MonoCost.json",
+      "sha256": "7067defa7aab6a80aa776f490dfd49aacf0d8ac69d7f4337b6a0d4bbf2f325f7"
+    },
+    {
+      "path": "CVRP/shortest/paris/n=1500/mamut-paris-n1500-k107-poi/mamut-paris-n1500-k107-poi.bks.MonoCost.json",
+      "sha256": "ec54f677f1f2970a4741ed68ce69894787c09565ee62352942d3b63f09dc42e1"
+    },
+    {
+      "path": "CVRP/shortest/paris/n=171/mamut-paris-n171-k8-hyb/mamut-paris-n171-k8-hyb.bks.MonoCost.json",
+      "sha256": "4b37adc43d7e2872ff96bc05b176fc4ebe11fe4180ecaf30ce0b80b281b06e4d"
+    },
+    {
+      "path": "CVRP/shortest/pau/n=327/mamut-pau-n327-k46-hyb/mamut-pau-n327-k46-hyb.bks.MonoCost.json",
+      "sha256": "122d4a6e994d94439fb1518a941ce7e0f59031cfeb339f372f9e8e166f8d03b9"
+    },
+    {
+      "path": "CVRP/shortest/perpignan/n=132/mamut-perpignan-n132-k9-poi/mamut-perpignan-n132-k9-poi.bks.MonoCost.json",
+      "sha256": "73a404a67ab6c5210837a6ec637211a61e7ace282d0b28be9c59c631687c62ef"
+    },
+    {
+      "path": "CVRP/shortest/prague/n=2000/mamut-prague-n2000-k13-poi/mamut-prague-n2000-k13-poi.bks.MonoCost.json",
+      "sha256": "475f80f58cdcb075fea0414ff4ad5061ec299d9192d9a000000e68d5d539fabe"
+    },
+    {
+      "path": "CVRP/shortest/prague/n=313/mamut-prague-n313-k11-poi/mamut-prague-n313-k11-poi.bks.MonoCost.json",
+      "sha256": "7f7cb6e984e11a78f3ebb3b8de0191c00ceeb675cffa00944fa6709806f44738"
+    },
+    {
+      "path": "CVRP/shortest/quimper/n=278/mamut-quimper-n278-k48-par/mamut-quimper-n278-k48-par.bks.MonoCost.json",
+      "sha256": "a87c60a1dbcac100f7b3e13b5e3106af685fdbce53270abe24adaf39aef689f2"
+    },
+    {
+      "path": "CVRP/shortest/reims/n=320/mamut-reims-n320-k64-hyb/mamut-reims-n320-k64-hyb.bks.MonoCost.json",
+      "sha256": "175257f42f92e7c6bb77c936933cb5dc2458c54f1a344cfe09fc4e522e47175d"
+    },
+    {
+      "path": "CVRP/shortest/rennes/n=599/mamut-rennes-n599-k115-hyb/mamut-rennes-n599-k115-hyb.bks.MonoCost.json",
+      "sha256": "45eb27f15b5e4d8dfb4ce529fc459749f08fec27c5c83b1257d8c252bdfa382b"
+    },
+    {
+      "path": "CVRP/shortest/reykjavik/n=138/mamut-reykjavik-n138-k10-poi/mamut-reykjavik-n138-k10-poi.bks.MonoCost.json",
+      "sha256": "b252e2e9a8bfba92fbe199a53e4d027b0f847ec32a14a6579aa3d4337bef9f66"
+    },
+    {
+      "path": "CVRP/shortest/riga/n=423/mamut-riga-n423-k105-poi/mamut-riga-n423-k105-poi.bks.MonoCost.json",
+      "sha256": "81bbc2dfe96a802d1814a5321fabed7aff95cd4bc17256234c577ddfc7f97f0b"
+    },
+    {
+      "path": "CVRP/shortest/rome/n=102/mamut-rome-n102-k9-poi/mamut-rome-n102-k9-poi.bks.MonoCost.json",
+      "sha256": "c140f19f60fd3b1df7312a8c70bbb4b072bd53aa9c07d2b0deef52e5d4e03396"
+    },
+    {
+      "path": "CVRP/shortest/rouen/n=266/mamut-rouen-n266-k36-poi/mamut-rouen-n266-k36-poi.bks.MonoCost.json",
+      "sha256": "0b109ff10baad9a1fc118925bf3f1598efd068f4bc5647e99d216db9d95f1314"
+    },
+    {
+      "path": "CVRP/shortest/saint_etienne/n=248/mamut-saint_etienne-n248-k43-poi/mamut-saint_etienne-n248-k43-poi.bks.MonoCost.json",
+      "sha256": "4c393cb8bb8637793d2b390114e149acf4602e113dde1da5b84a9c852f3c6ba3"
+    },
+    {
+      "path": "CVRP/shortest/saint_malo/n=260/mamut-saint_malo-n260-k35-par/mamut-saint_malo-n260-k35-par.bks.MonoCost.json",
+      "sha256": "289b2a75011a49b651b2b252fe6884b90b23ec15345c5de34b99776b16e80a33"
+    },
+    {
+      "path": "CVRP/shortest/san_francisco/n=890/mamut-san_francisco-n890-k83-par/mamut-san_francisco-n890-k83-par.bks.MonoCost.json",
+      "sha256": "bf85d7e3da1143e893c66592f77bf76abeee3de73d57f1fa6e69530800484c2d"
+    },
+    {
+      "path": "CVRP/shortest/sao_paulo/n=123/mamut-sao_paulo-n123-k9-poi/mamut-sao_paulo-n123-k9-poi.bks.MonoCost.json",
+      "sha256": "1d844a055f6f90d75881d415730afe2fa8155ac64b54205d0b61dda0c3dc3b40"
+    },
+    {
+      "path": "CVRP/shortest/singapore/n=126/mamut-singapore-n126-k10-poi/mamut-singapore-n126-k10-poi.bks.MonoCost.json",
+      "sha256": "c9620a1bb2fe609eb35fe8757c59f8f222d8ef7406b2de829cbe29e2b904f6bc"
+    },
+    {
+      "path": "CVRP/shortest/singapore/n=4000/mamut-singapore-n4000-k498-poi/mamut-singapore-n4000-k498-poi.bks.MonoCost.json",
+      "sha256": "534b4b318fa6b5ce1f682d344e7556efe4b307adf3914115328d7e27b4ad568f"
+    },
+    {
+      "path": "CVRP/shortest/sofia/n=1500/mamut-sofia-n1500-k114-poi/mamut-sofia-n1500-k114-poi.bks.MonoCost.json",
+      "sha256": "8e321b40a854344cf16dcc30a312c4957957fb2ba4cd3f904a88c1fa615e788b"
+    },
+    {
+      "path": "CVRP/shortest/sofia/n=977/mamut-sofia-n977-k111-poi/mamut-sofia-n977-k111-poi.bks.MonoCost.json",
+      "sha256": "30244455528bd112882ed3f6bcc4e288defb7e1855deb86dc3c65e766d44a860"
+    },
+    {
+      "path": "CVRP/shortest/stockholm/n=705/mamut-stockholm-n705-k60-par/mamut-stockholm-n705-k60-par.bks.MonoCost.json",
+      "sha256": "00cc4b97d15fa5623eacc4803e50de95a5d806931ca349ba21eef686b4d32ffd"
+    },
+    {
+      "path": "CVRP/shortest/strasbourg/n=811/mamut-strasbourg-n811-k163-hyb/mamut-strasbourg-n811-k163-hyb.bks.MonoCost.json",
+      "sha256": "7beeb8dba988e717606a7ca69a30fb6df6f8af04fbf4362bcca56784d27c8493"
+    },
+    {
+      "path": "CVRP/shortest/sydney/n=118/mamut-sydney-n118-k9-poi/mamut-sydney-n118-k9-poi.bks.MonoCost.json",
+      "sha256": "f450ef8ef1879053d1f495bb78ee66611c8ba0d8d8cc6ba02a5af6227fd9fb93"
+    },
+    {
+      "path": "CVRP/shortest/tallinn/n=628/mamut-tallinn-n628-k106-hyb/mamut-tallinn-n628-k106-hyb.bks.MonoCost.json",
+      "sha256": "53d868959b9d845c1d77bfc23de5b181fb1c7c883922ff22eae65d31d3481322"
+    },
+    {
+      "path": "CVRP/shortest/toronto/n=100/mamut-toronto-n100-k8-par/mamut-toronto-n100-k8-par.bks.MonoCost.json",
+      "sha256": "c971962d8f30160b66d6076688c48670199a9591900c1be51cb387e5857e8799"
+    },
+    {
+      "path": "CVRP/shortest/toulon/n=196/mamut-toulon-n196-k60-poi/mamut-toulon-n196-k60-poi.bks.MonoCost.json",
+      "sha256": "9991a664d04f2c49cbbc527301fce9620f10aea23a22125c7212f354254ab082"
+    },
+    {
+      "path": "CVRP/shortest/toulouse/n=689/mamut-toulouse-n689-k129-poi/mamut-toulouse-n689-k129-poi.bks.MonoCost.json",
+      "sha256": "b11a1c4d64bf64ea35a00ee2b929c2a8c3d6ea08366a4433f20544e04ebc4a39"
+    },
+    {
+      "path": "CVRP/shortest/tours/n=509/mamut-tours-n509-k48-hyb/mamut-tours-n509-k48-hyb.bks.MonoCost.json",
+      "sha256": "d73d8d7c785e2eb6cfae82ba7efd521d7789b88b154418d75d3868825a74ab39"
+    },
+    {
+      "path": "CVRP/shortest/vannes/n=335/mamut-vannes-n335-k16-par/mamut-vannes-n335-k16-par.bks.MonoCost.json",
+      "sha256": "618d0fdb2acdcb60a4a52c965169c8ec86a2898ce6126da1aa1c781fdbc62837"
+    },
+    {
+      "path": "CVRP/shortest/vienna/n=1200/mamut-vienna-n1200-k130-poi/mamut-vienna-n1200-k130-poi.bks.MonoCost.json",
+      "sha256": "9ee80da3ccd767130bfbbd2d5883c32a2fa8c4aaf583e980ab96a88675a3c835"
+    },
+    {
+      "path": "CVRP/shortest/vienna/n=298/mamut-vienna-n298-k36-poi/mamut-vienna-n298-k36-poi.bks.MonoCost.json",
+      "sha256": "e3632ce380b05688b907294c88cb2f4d219c00fba12582a9d884aa860ac78463"
+    },
+    {
+      "path": "CVRP/shortest/vilnius/n=351/mamut-vilnius-n351-k9-poi/mamut-vilnius-n351-k9-poi.bks.MonoCost.json",
+      "sha256": "73feccab0138b275f8b09fbb7f14eb57ff71afb159f2698b96b95a2ef681da93"
+    },
+    {
+      "path": "CVRP/shortest/warsaw/n=110/mamut-warsaw-n110-k8-poi/mamut-warsaw-n110-k8-poi.bks.MonoCost.json",
+      "sha256": "666e362a1957cd1638035e46950f43b939ac546d9ca6dcc102921777805dc272"
+    },
+    {
+      "path": "CVRP/shortest/zurich/n=933/mamut-zurich-n933-k20-poi/mamut-zurich-n933-k20-poi.bks.MonoCost.json",
+      "sha256": "c09d83f71b46160f134e9931cbc19b08f1f924519777661225b189093cc25f5c"
+    }
+  ]
+}

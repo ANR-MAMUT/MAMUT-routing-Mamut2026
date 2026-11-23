@@ -1,0 +1,52 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": false,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/euclidean/barcelona/n=107/mamut-barcelona-n107-k8-poi/mamut-barcelona-n107-k8-poi.vrp.json",
+    "sha256": "25f8e5dddd7d1515c29bd2170a7c9ca6f1a653530aed9e8758f4dcffb1b627cc"
+  },
+  "instance_name": "mamut-barcelona-n107-k8-poi",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "regenerated",
+    "matrix_sha256": "b1289d5caee0a33b30afd4129a60f88f588ab22dbf7eb3adbe6af408ec1b979c",
+    "recipe": {
+      "artifacts": [
+        {
+          "path": ".mamut/artifacts/74fb885fc3b76dcd3ac65cb0b75b0086b89f976d422ea6a9fd398e6d10d2d828/mamut_routing_lib-0.13.0.dev0.tar.gz",
+          "scope": "file",
+          "sha256": "74fb885fc3b76dcd3ac65cb0b75b0086b89f976d422ea6a9fd398e6d10d2d828"
+        },
+        {
+          "path": ".mamut/artifacts/b829e5366f94c6810db090671d2a546cdc06079bf972ee2282f718def94cb9ba/mamut_routing_lib-0.13.0.dev0-cp312-cp312-linux_x86_64.whl",
+          "scope": "file",
+          "sha256": "b829e5366f94c6810db090671d2a546cdc06079bf972ee2282f718def94cb9ba"
+        },
+        {
+          "path": ".mamut/artifacts/21efc05188bca2b25987b5bd302a87169680b8aa234daa6e77b73e6c1c457197/materialization-environment-linux-x86_64.json",
+          "scope": "file",
+          "sha256": "21efc05188bca2b25987b5bd302a87169680b8aa234daa6e77b73e6c1c457197"
+        }
+      ],
+      "callable": "mamut_routing_lib.artifacts.resolve_arc_costs",
+      "parameters": {
+        "decimals": 3,
+        "model": "euclidean"
+      }
+    }
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "metre"
+  }
+}

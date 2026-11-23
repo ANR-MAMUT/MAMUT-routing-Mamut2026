@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": true,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/fastest/saint_etienne/n=248/mamut-saint_etienne-n248-k43-poi/mamut-saint_etienne-n248-k43-poi.vrp.json",
+    "sha256": "464d25ec70cc942a99465dbad7c81ae370f6a32aaff12d9c9ce34b036b886112"
+  },
+  "instance_name": "mamut-saint_etienne-n248-k43-poi",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "be36eaee0e1cad840a2a5fec1b7e47efbd85b975ec283c1b228ddeeff5dc70dc"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/saint_etienne/n=248/mamut-saint_etienne-n248-k43-poi/mamut-saint_etienne-n248-k43-poi.distances-fastest.json.gz",
+      "scope": "decompressed",
+      "sha256": "9f0cf45ebffc8cfc0a4016c1b288b34467e30f83ad48bf7c3b2a55e55e7fe42a"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "second"
+  }
+}

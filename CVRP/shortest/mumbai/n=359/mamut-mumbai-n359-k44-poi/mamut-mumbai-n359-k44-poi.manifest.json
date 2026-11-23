@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": false,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/shortest/mumbai/n=359/mamut-mumbai-n359-k44-poi/mamut-mumbai-n359-k44-poi.vrp.json",
+    "sha256": "0c6ac22b18a7f1ee808753071dda624178cecc588c2ec377b0b8ea0e90491812"
+  },
+  "instance_name": "mamut-mumbai-n359-k44-poi",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "54b7fc2ae979f266e6f2d02a8e110d7fe9dbce35938578b83e6f19c6e5eedc3d"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/mumbai/n=359/mamut-mumbai-n359-k44-poi/mamut-mumbai-n359-k44-poi.distances-shortest.json.gz",
+      "scope": "decompressed",
+      "sha256": "dc9bdb0c8c1021b39b45041077a7ae47e1f0835c8f73e8fdb3d89a9ba40b0e1e"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "metre"
+  }
+}

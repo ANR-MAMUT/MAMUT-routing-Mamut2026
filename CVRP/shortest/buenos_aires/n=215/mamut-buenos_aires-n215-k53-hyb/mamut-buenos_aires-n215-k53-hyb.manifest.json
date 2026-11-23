@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": false,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/shortest/buenos_aires/n=215/mamut-buenos_aires-n215-k53-hyb/mamut-buenos_aires-n215-k53-hyb.vrp.json",
+    "sha256": "4b77d06401e9fef3b84057d1ae5a107e06c4672e4b874cf52e68897148764ebe"
+  },
+  "instance_name": "mamut-buenos_aires-n215-k53-hyb",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "9670021031ea8a3d98d3a8cb5355bd2c097565564e2bfec40752f69e6e04575e"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/buenos_aires/n=215/mamut-buenos_aires-n215-k53-hyb/mamut-buenos_aires-n215-k53-hyb.distances-shortest.json.gz",
+      "scope": "decompressed",
+      "sha256": "3b4b9d7ed81ac24b958713d247cd99d937af7242c3c184503d56be878ce1ba93"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "metre"
+  }
+}

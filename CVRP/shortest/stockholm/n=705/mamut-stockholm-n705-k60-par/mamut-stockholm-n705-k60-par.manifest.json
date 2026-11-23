@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": false,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/shortest/stockholm/n=705/mamut-stockholm-n705-k60-par/mamut-stockholm-n705-k60-par.vrp.json",
+    "sha256": "29c6d949113b4bd28f41603a8372c2dce3c014db86298c55100c520df40b8ec3"
+  },
+  "instance_name": "mamut-stockholm-n705-k60-par",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "15f56e5a0454535a2d5edfc8cc7e375c29281b71d89c5d511d7842394ea22615"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/stockholm/n=705/mamut-stockholm-n705-k60-par/mamut-stockholm-n705-k60-par.distances-shortest.json.gz",
+      "scope": "decompressed",
+      "sha256": "df1b9596bbac19817692677960d32cc19fc3ade4f45da1cecd03574d8bf5966c"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "metre"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": false,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/shortest/tallinn/n=628/mamut-tallinn-n628-k106-hyb/mamut-tallinn-n628-k106-hyb.vrp.json",
+    "sha256": "7053c111b1bcb2e7e90ce88593a61cb289fafb609585edfe458566e6c8751411"
+  },
+  "instance_name": "mamut-tallinn-n628-k106-hyb",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "f27b3be1d6f556061fff47e6c4f11c223bdd1b481f8a868b02c823d2b334b6a1"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/tallinn/n=628/mamut-tallinn-n628-k106-hyb/mamut-tallinn-n628-k106-hyb.distances-shortest.json.gz",
+      "scope": "decompressed",
+      "sha256": "4371ff939592937ce0d88bbb74fa663f2456bcd271208e9066b7cb43c911e787"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "metre"
+  }
+}

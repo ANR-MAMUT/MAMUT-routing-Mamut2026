@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": true,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/fastest/brussels/n=343/mamut-brussels-n343-k46-poi/mamut-brussels-n343-k46-poi.vrp.json",
+    "sha256": "0fd9c878c0ca1588385f568d4c3c75175d00e33eadb1968033f2c8e48314d96d"
+  },
+  "instance_name": "mamut-brussels-n343-k46-poi",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "dce1ec1f66d4a5e7a39f5e43739c8704c23f9e09b330bcea525c8970579ff478"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/brussels/n=343/mamut-brussels-n343-k46-poi/mamut-brussels-n343-k46-poi.distances-fastest.json.gz",
+      "scope": "decompressed",
+      "sha256": "dfc014deab5ef60c6050766f33af8561c997b173ef2165bb0036bf6f46942118"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "second"
+  }
+}

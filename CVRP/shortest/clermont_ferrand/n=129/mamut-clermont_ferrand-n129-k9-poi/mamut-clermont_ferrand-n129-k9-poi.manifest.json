@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": false,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/shortest/clermont_ferrand/n=129/mamut-clermont_ferrand-n129-k9-poi/mamut-clermont_ferrand-n129-k9-poi.vrp.json",
+    "sha256": "5048eb28ad004252395e605c24f616ec17a2383dedf79e24d7ef65b3b7653fb3"
+  },
+  "instance_name": "mamut-clermont_ferrand-n129-k9-poi",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "ba222e0843b92cfc76eb95e6c10a4c1f6b2e1505767bb24a6de20d7392130735"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/clermont_ferrand/n=129/mamut-clermont_ferrand-n129-k9-poi/mamut-clermont_ferrand-n129-k9-poi.distances-shortest.json.gz",
+      "scope": "decompressed",
+      "sha256": "a994c8f55f6dc794a417690feb37a9fac60de32a959ea56abcf12c5c0c3a9f64"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "metre"
+  }
+}

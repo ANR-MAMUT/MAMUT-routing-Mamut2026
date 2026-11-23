@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": false,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/shortest/saint_malo/n=260/mamut-saint_malo-n260-k35-par/mamut-saint_malo-n260-k35-par.vrp.json",
+    "sha256": "e6c93248c077f33463b0c11401bacda3aa926edab7e8465c731b2bef57d5147e"
+  },
+  "instance_name": "mamut-saint_malo-n260-k35-par",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "02998568de9a0e4bac2d78ac6e2f55f34c7d2abeb2cb8a96d54ad90d312a9b60"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/saint_malo/n=260/mamut-saint_malo-n260-k35-par/mamut-saint_malo-n260-k35-par.distances-shortest.json.gz",
+      "scope": "decompressed",
+      "sha256": "facba4d024f5e3d56e806d82a0a2b73981c42e65366c6a0831a0ea5e396133f5"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "metre"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": false,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/shortest/lorient/n=453/mamut-lorient-n453-k114-par/mamut-lorient-n453-k114-par.vrp.json",
+    "sha256": "9f39c56b7249cb54f381189a10c2f589b2a738130b57d15821de0358038f04c3"
+  },
+  "instance_name": "mamut-lorient-n453-k114-par",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "6673348f0a89011f37c8fd2b4d56fd92a90ae481711e04777fde4722e02bd303"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/lorient/n=453/mamut-lorient-n453-k114-par/mamut-lorient-n453-k114-par.distances-shortest.json.gz",
+      "scope": "decompressed",
+      "sha256": "1fd807cf364ed0d9120ab96ef3e96f5078f92ed5db6adffa18067077b6f99512"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "metre"
+  }
+}

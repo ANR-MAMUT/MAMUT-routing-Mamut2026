@@ -1,0 +1,70 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": true,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/fastest/paris/n=1500/mamut-paris-n1500-k107-poi/mamut-paris-n1500-k107-poi.vrp.json",
+    "sha256": "9a218451306b107ab2c37e8846ed363e9b023153c81efc514d6e4f29e0b6a9ff"
+  },
+  "instance_name": "mamut-paris-n1500-k107-poi",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "regenerated",
+    "matrix_sha256": "b97fb0e355fca775148ff93a1a0103e35e1f41ca76b86e676e103d9bf7652781",
+    "recipe": {
+      "artifacts": [
+        {
+          "path": ".mamut/artifacts/74fb885fc3b76dcd3ac65cb0b75b0086b89f976d422ea6a9fd398e6d10d2d828/mamut_routing_lib-0.13.0.dev0.tar.gz",
+          "scope": "file",
+          "sha256": "74fb885fc3b76dcd3ac65cb0b75b0086b89f976d422ea6a9fd398e6d10d2d828"
+        },
+        {
+          "path": ".mamut/artifacts/b829e5366f94c6810db090671d2a546cdc06079bf972ee2282f718def94cb9ba/mamut_routing_lib-0.13.0.dev0-cp312-cp312-linux_x86_64.whl",
+          "scope": "file",
+          "sha256": "b829e5366f94c6810db090671d2a546cdc06079bf972ee2282f718def94cb9ba"
+        },
+        {
+          "path": ".mamut/artifacts/f680f47372674ed236bb70fe507eb7aec7bd829dd1001212cf50b452ce80442f/mamut-routing-tools-source.tar.gz",
+          "scope": "file",
+          "sha256": "f680f47372674ed236bb70fe507eb7aec7bd829dd1001212cf50b452ce80442f"
+        },
+        {
+          "path": ".mamut/artifacts/75f09b78c3ca928b70c02c68844ab3629bed22fe63b1a69435ff71490fb8aee7/mamut_routing_tools-0.7.0.dev0-py3-none-any.whl",
+          "scope": "file",
+          "sha256": "75f09b78c3ca928b70c02c68844ab3629bed22fe63b1a69435ff71490fb8aee7"
+        },
+        {
+          "path": ".mamut/artifacts/21efc05188bca2b25987b5bd302a87169680b8aa234daa6e77b73e6c1c457197/materialization-environment-linux-x86_64.json",
+          "scope": "file",
+          "sha256": "21efc05188bca2b25987b5bd302a87169680b8aa234daa6e77b73e6c1c457197"
+        }
+      ],
+      "callable": "mamut_routing_tools.family.materialize_distances",
+      "parameters": {
+        "decimals": 3,
+        "metric": "fastest",
+        "output_decompressed_sha256": "bab5817cbeb3bb78bce7a09996d1dedc928639414ef63ad58f7850a0698c1ba8",
+        "output_path": "sidecars/paris/n=1500/mamut-paris-n1500-k107-poi/mamut-paris-n1500-k107-poi.distances-fastest.json.gz"
+      }
+    }
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/paris/n=1500/mamut-paris-n1500-k107-poi/mamut-paris-n1500-k107-poi.road.json.gz",
+      "scope": "file",
+      "sha256": "e8fab322106584d8271bb253b33944ebc4b68d5862f7d9b7ba7ff10b75912111"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "second"
+  }
+}

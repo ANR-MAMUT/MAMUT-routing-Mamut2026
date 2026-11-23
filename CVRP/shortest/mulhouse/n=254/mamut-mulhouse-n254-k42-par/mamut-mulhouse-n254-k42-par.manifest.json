@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": false,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/shortest/mulhouse/n=254/mamut-mulhouse-n254-k42-par/mamut-mulhouse-n254-k42-par.vrp.json",
+    "sha256": "4f0faa419e200247a79a7efab8ed2c0f140b99f30ec095ad2db1f5ca9302cdd1"
+  },
+  "instance_name": "mamut-mulhouse-n254-k42-par",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "9f615154c068bd3f88f401216bfe887c64e0351d25b5b054253fd0b37d5d6dfd"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/mulhouse/n=254/mamut-mulhouse-n254-k42-par/mamut-mulhouse-n254-k42-par.distances-shortest.json.gz",
+      "scope": "decompressed",
+      "sha256": "92970f3bdd6b6357d4431638e663cb7f5bbb9087f30f2107deec87e1bdf12d5f"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "metre"
+  }
+}

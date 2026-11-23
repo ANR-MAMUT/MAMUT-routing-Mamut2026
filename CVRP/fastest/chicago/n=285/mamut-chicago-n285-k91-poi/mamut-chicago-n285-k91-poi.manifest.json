@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": true,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/fastest/chicago/n=285/mamut-chicago-n285-k91-poi/mamut-chicago-n285-k91-poi.vrp.json",
+    "sha256": "7fa7d8c588ec8d4312e92a1eae50783198b082bcd496179286d86212699a84b2"
+  },
+  "instance_name": "mamut-chicago-n285-k91-poi",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "2cb0b1523fd4cb4ae5d9706c9f01df5281e59a3bd33eae8c817f3ce669c4e954"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/chicago/n=285/mamut-chicago-n285-k91-poi/mamut-chicago-n285-k91-poi.distances-fastest.json.gz",
+      "scope": "decompressed",
+      "sha256": "573339da35d7b1d7fc4ac7e007b9737ca16f9eb24134560b6a25755418e5334b"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "second"
+  }
+}

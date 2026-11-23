@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": false,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/shortest/le_havre/n=163/mamut-le_havre-n163-k7-par/mamut-le_havre-n163-k7-par.vrp.json",
+    "sha256": "a87b77752790fb2ddfcd71e049dd72b06df492696dc1b5246d8ca16cf6b9cc79"
+  },
+  "instance_name": "mamut-le_havre-n163-k7-par",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "941fc4d06c8d6976f849ab5a9f5b39baa6ee5614960908f0c48c951d8f441d7b"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/le_havre/n=163/mamut-le_havre-n163-k7-par/mamut-le_havre-n163-k7-par.distances-shortest.json.gz",
+      "scope": "decompressed",
+      "sha256": "6ef2ad0688ac2635df8e9e71369805278e19a779ec00afd5167fc037d5447034"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "metre"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": true,
+  "default_profile": "binary64-exact-v1",
+  "family": "Mamut2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits"
+  ],
+  "instance": {
+    "path": "CVRP/fastest/sao_paulo/n=123/mamut-sao_paulo-n123-k9-poi/mamut-sao_paulo-n123-k9-poi.vrp.json",
+    "sha256": "bb637965b7c9291fb2c97c401eba75157a152e6e95e75349825406e2a725b2f5"
+  },
+  "instance_name": "mamut-sao_paulo-n123-k9-poi",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "sidecar-matrix",
+    "matrix_sha256": "307a72c67dcf2775aa2b597994e19aeafb7e68f44f37c4a4022e655f99ee96db"
+  },
+  "objective": "MonoCost",
+  "problem": "CVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/sao_paulo/n=123/mamut-sao_paulo-n123-k9-poi/mamut-sao_paulo-n123-k9-poi.distances-fastest.json.gz",
+      "scope": "decompressed",
+      "sha256": "3b54bc7961addeecad32e55205e0c041603a0583847c11b0a72d8b5f94fa446e"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "second"
+  }
+}
