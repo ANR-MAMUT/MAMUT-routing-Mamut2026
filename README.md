@@ -450,6 +450,8 @@ labelled `poi` unless all of its customers are amenities.
 
 ## Loading
 
+Edition `r1` uses `binary64-exact-v1` to evaluate routes on the materialized static matrix. The certified solution cost is the fraction in `metadata.standard.authoritative_cost`. The top-level `cost` is its binary64 display.
+
 The reference loader is
 [mamut-routing-lib](https://github.com/ANR-MAMUT/MAMUT-routing-lib):
 
