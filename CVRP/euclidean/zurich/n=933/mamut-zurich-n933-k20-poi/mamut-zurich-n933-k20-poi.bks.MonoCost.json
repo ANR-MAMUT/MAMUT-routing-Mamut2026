@@ -28,7 +28,6 @@
         "seed": 4,
         "time_limit_s": 20152,
         "wall_time": 20154.029,
-        "solver_cost": null,
         "vehicle_penalty": 0,
         "solver_version": {
             "upstream_git": "e631331c76f001e652af9895e27f0fd8da8698c0",
@@ -40,7 +39,6 @@
         "campaign": "mamut2026-bks-3",
         "phase": "ails2-seed",
         "host": "Common KVM processor",
-        "solver_reported_cost": 576101.1876881123,
         "command": "/lab/home/labsticc/apichon/code/AIR-HGS-rivals/external/jdk-21.0.12.1+1/bin/java -Xmx4g -XX:+UseSerialGC -XX:ActiveProcessorCount=1 -jar /lab/home/labsticc/apichon/code/mamut2026-bks-3/solvers/AILSII.jar -file /lab/home/labsticc/apichon/code/mamut2026-bks-3/campaign/out/vrp/m/mamut-zurich-n933-k20-poi.vrp -rounded false -best 0 -limit 20152 -stoppingCriterion Time -seed 4 -out /lab/home/labsticc/apichon/code/mamut2026-bks-3/campaign/out/tmp/ails2-6cz3m6d8/mamut-zurich-n933-k20-poi.ails2.sol",
         "authors": "Florian Rascoussier (0nyr) and Adrien Pichon (Anzury)",
         "validated_cost": 576101.189,

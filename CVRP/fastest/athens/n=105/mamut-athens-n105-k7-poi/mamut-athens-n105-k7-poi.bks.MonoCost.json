@@ -15,7 +15,6 @@
         "seed": 42,
         "time_limit_s": 120,
         "wall_time": 120.01524119998794,
-        "solver_cost": 19819231,
         "vehicle_penalty": 0,
         "authors": "Florian Rascoussier (0nyr) and Adrien Pichon (Anzury)",
         "validated_cost": 19819.231,

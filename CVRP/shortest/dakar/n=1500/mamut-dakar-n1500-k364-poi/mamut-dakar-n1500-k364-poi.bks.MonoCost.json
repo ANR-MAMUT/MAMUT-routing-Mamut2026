@@ -373,7 +373,6 @@
         "seed": 3032,
         "time_limit_s": 48600,
         "wall_time": 48600.289,
-        "solver_cost": 5035210829,
         "vehicle_penalty": 0,
         "solver_version": "0.13.4",
         "campaign": "mamut2026-bks-3",

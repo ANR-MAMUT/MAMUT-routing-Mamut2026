@@ -140,7 +140,6 @@
         "time_limit_s": 1653.6,
         "wall_time": 1654.479,
         "cpu_time_s": 1654.8,
-        "solver_reported_cost": 5753649.931,
         "solver_version": "0.14.1",
         "pyvrp_version": "0.14.1",
         "campaign": "air-hgs-campaign-e",

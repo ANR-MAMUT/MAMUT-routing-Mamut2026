@@ -74,7 +74,6 @@
         "seed": 7,
         "time_limit_s": 504,
         "wall_time": 504.048,
-        "solver_cost": 126007908,
         "vehicle_penalty": 0,
         "pyvrp_version": "0.13.4",
         "campaign": "mamut2026-bks-2",

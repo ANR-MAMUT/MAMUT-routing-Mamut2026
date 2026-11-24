@@ -266,7 +266,6 @@
         "seed": 5,
         "time_limit_s": 16329,
         "wall_time": 16333.758,
-        "solver_cost": null,
         "vehicle_penalty": 0,
         "solver_version": {
             "git": "1a927955cd2861a29d978f0d359d6e647db9319c",
@@ -275,7 +274,6 @@
         "campaign": "mamut2026-bks-3",
         "phase": "hgs-seed",
         "host": "Common KVM processor",
-        "solver_reported_cost": 3066210.0,
         "command": "/lab/home/labsticc/apichon/code/mamut2026-bks-3/solvers/HGS-CVRP/build/hgs /lab/home/labsticc/apichon/code/mamut2026-bks-3/campaign/out/vrp/m/mamut-bordeaux-n756-k250-hyb.vrp /lab/home/labsticc/apichon/code/mamut2026-bks-3/campaign/out/tmp/hgs-mq18qt4u/mamut-bordeaux-n756-k250-hyb.hgs.sol -t 16329 -seed 5 -round 0 -it 1000000000",
         "authors": "Florian Rascoussier (0nyr) and Adrien Pichon (Anzury)",
         "validated_cost": 3066212.708,

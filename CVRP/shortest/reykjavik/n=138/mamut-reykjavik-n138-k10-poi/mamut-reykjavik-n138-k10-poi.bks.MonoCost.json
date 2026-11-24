@@ -21,7 +21,6 @@
         "time_limit_s": 27.4,
         "wall_time": 27.406,
         "cpu_time_s": 27.4,
-        "solver_reported_cost": 317358.0,
         "solver_version": {
             "binary_sha256": "3335fafb9b86776cead1a86ed12af3277803b4dfdfef17743a6ebc169ea7a112",
             "campaign_tree_git": "f33cb48355b39efd83ac694d1f688128f6a8eed3"

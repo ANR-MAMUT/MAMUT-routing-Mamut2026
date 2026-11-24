@@ -171,7 +171,6 @@
         "seed": 1,
         "time_limit_s": 17517,
         "wall_time": 17517.052,
-        "solver_cost": null,
         "vehicle_penalty": 0,
         "solver_version": {
             "git": "43653e26e58ac774c485542a5a6329ed15a9c9f3",
@@ -180,7 +179,6 @@
         "campaign": "mamut2026-bks-3",
         "phase": "filo2-seed",
         "host": "Common KVM processor",
-        "solver_reported_cost": 2396199.537,
         "command": "/lab/home/labsticc/apichon/code/mamut2026-bks-3/solvers/filo2/build/filo2 /lab/home/labsticc/apichon/code/mamut2026-bks-3/campaign/out/vrp/mm/mamut-strasbourg-n811-k163-hyb.vrp --outpath /lab/home/labsticc/apichon/code/mamut2026-bks-3/campaign/out/tmp/filo2-ehlw7l89/ --seed 1 --optimization-seconds 17517",
         "authors": "Florian Rascoussier (0nyr) and Adrien Pichon (Anzury)",
         "validated_cost": 2396199.537,
