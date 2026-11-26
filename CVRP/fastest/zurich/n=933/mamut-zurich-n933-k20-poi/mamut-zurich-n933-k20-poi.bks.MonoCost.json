@@ -59,7 +59,7 @@
             },
             "specification": "mamut-routing/0.1",
             "benchmark_revision": "r1",
-            "manifest_sha256": "f67dc70157f27901ea7122a2f1cd189e7b9a6662e244942b107ef16b3625c7b4"
+            "manifest_sha256": "9b6f7cc1d5af08a69c006fe0995e63fcd77214430b5c0c0892db155fae3e7abf"
         }
     },
     "objective_function": "MonoCost"
